@@ -3,6 +3,7 @@ import { AuthController } from "../controllers/auth";
 import { authenticateToken } from "../middlewares/auth";
 
 export class AuthRoutes {
+  public path: string = "/auth";
   public router = Router();
 
   public authController = new AuthController();
@@ -12,8 +13,8 @@ export class AuthRoutes {
   }
 
   private initializeRoutes() {
-    this.router.get(`/auth`, this.authController.loginUser);
-    this.router.post(`/auth`, this.authController.createUser);
+    this.router.get(`${this.path}/login`, this.authController.loginUser);
+    this.router.post(`${this.path}/register`, this.authController.createUser);
   }
 }
 

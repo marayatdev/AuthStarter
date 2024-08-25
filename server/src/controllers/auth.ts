@@ -10,7 +10,11 @@ export class AuthController {
   private authService = new AuthService();
 
   public createUser = async (
-    req: Request,
+    req: TypedRequestBody<{
+      username: string;
+      email: string;
+      password: string;
+    }>,
     res: Response,
     next: NextFunction
   ) => {
@@ -35,6 +39,7 @@ export class AuthController {
           hashPassword,
           imagePath ?? ""
         );
+
         return res.status(201).json(user);
       } catch (error) {
         next(error);
@@ -64,7 +69,12 @@ export class AuthController {
       }
 
       const token = jwt.sign(
-        { id: user.user_id, email: user.email, username: user.username },
+        {
+          id: user.user_id,
+          email: user.email,
+          username: user.username,
+          role: user.role,
+        },
         this.jwtSecret,
         {
           expiresIn: "1h",
