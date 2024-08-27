@@ -20,4 +20,10 @@ export class AuthService {
       data: { username, email, password, image_profile: imagePath },
     });
   }
+
+  public async findById(userId: number) {
+    return this.prisma.users.findUnique({
+      where: { user_id: userId },
+    });
+  }
 }

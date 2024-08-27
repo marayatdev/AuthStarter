@@ -86,4 +86,71 @@ export class AuthController {
       next(error);
     }
   };
+
+  public getUserMe = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const authHeader = req.headers.authorization;
+      if (!authHeader || !authHeader.startsWith("Bearer ")) {
+        return res.status(401).json({ message: "Token missing or invalid" });
+      }
+
+      const token = authHeader.split(" ")[1];
+      const decodedToken = jwt.verify(token, this.jwtSecret) as jwt.JwtPayload;
+
+      const user = await this.authService.findById(decodedToken.id);
+      if (!user) {
+        return res.status(404).json({ message: "User not found" });
+      }
+
+      return res.json({
+        email: user.email,
+        username: user.username,
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public refreshToken = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      // Extract refresh token from the request
+      const { refreshToken } = req.body;
+
+      if (!refreshToken) {
+        return res.status(401).json({ message: "Refresh token missing" });
+      }
+
+      // Verify refresh token
+      const decoded = jwt.verify(
+        refreshToken,
+        this.jwtSecret
+      ) as jwt.JwtPayload;
+
+      // Generate a new access token
+      const newToken = jwt.sign(
+        {
+          id: decoded.id,
+          email: decoded.email,
+          username: decoded.username,
+          role: decoded.role,
+        },
+        this.jwtSecret,
+        {
+          expiresIn: "1h", // Set expiration time as needed
+        }
+      );
+
+      return res.json({ token: newToken });
+    } catch (error) {
+      next(error);
+    }
+  };
 }

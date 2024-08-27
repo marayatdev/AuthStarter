@@ -1191,3 +1191,252 @@ Please make sure your database server is running at `localhost:3306`.
 2024-08-25T12:06:56.308Z [info]: 🚀 Server is running on http://localhost:3000
 2024-08-27T12:36:53.013Z [info]: Connected to database
 2024-08-27T12:36:54.175Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T13:46:03.066Z [info]: Connected to database
+2024-08-27T13:46:03.587Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:04:46.392Z [info]: Connected to database
+2024-08-27T14:04:46.925Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:11:35.771Z [info]: Connected to database
+2024-08-27T14:11:36.292Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:22:05.007Z [info]: Connected to database
+2024-08-27T14:22:05.326Z [error]: Error loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.ts[0m:[93m66[0m:[93m41[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m66[0m       const valid = await argon2.verify(user.password, password);
+[7m  [0m [91m                                        ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m73[0m:[93m15[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m73[0m           id: user.user_id,
+[7m  [0m [91m              ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m74[0m:[93m18[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m74[0m           email: user.email,
+[7m  [0m [91m                 ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m75[0m:[93m21[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m75[0m           username: user.username,
+[7m  [0m [91m                    ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m76[0m:[93m17[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m76[0m           role: user.role,
+[7m  [0m [91m                ~~~~[0m
+
+2024-08-27T14:22:05.333Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:22:12.757Z [info]: Connected to database
+2024-08-27T14:22:13.079Z [error]: Error loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.ts[0m:[93m66[0m:[93m41[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m66[0m       const valid = await argon2.verify(user.password, password);
+[7m  [0m [91m                                        ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m73[0m:[93m15[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m73[0m           id: user.user_id,
+[7m  [0m [91m              ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m74[0m:[93m18[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m74[0m           email: user.email,
+[7m  [0m [91m                 ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m75[0m:[93m21[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m75[0m           username: user.username,
+[7m  [0m [91m                    ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m76[0m:[93m17[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m76[0m           role: user.role,
+[7m  [0m [91m                ~~~~[0m
+
+2024-08-27T14:22:13.086Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:22:22.754Z [info]: Connected to database
+2024-08-27T14:22:23.147Z [error]: Error loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.ts[0m:[93m66[0m:[93m41[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m66[0m       const valid = await argon2.verify(user., password);
+[7m  [0m [91m                                        ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m73[0m:[93m15[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m73[0m           id: user.user_id,
+[7m  [0m [91m              ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m74[0m:[93m18[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m74[0m           email: user.email,
+[7m  [0m [91m                 ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m75[0m:[93m21[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m75[0m           username: user.username,
+[7m  [0m [91m                    ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m76[0m:[93m17[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m76[0m           role: user.role,
+[7m  [0m [91m                ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m66[0m:[93m46[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m66[0m       const valid = await argon2.verify(user., password);
+[7m  [0m [91m                                             ~[0m
+
+2024-08-27T14:22:23.157Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:22:26.430Z [info]: Connected to database
+2024-08-27T14:22:30.358Z [info]: Connected to database
+2024-08-27T14:22:30.842Z [error]: Error loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.ts[0m:[93m66[0m:[93m41[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+
+[7m66[0m       const valid = await argon2.verify(user?.email, password);
+[7m  [0m [91m                                        ~~~~~~~~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m73[0m:[93m15[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m73[0m           id: user.user_id,
+[7m  [0m [91m              ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m74[0m:[93m18[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m74[0m           email: user.email,
+[7m  [0m [91m                 ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m75[0m:[93m21[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m75[0m           username: user.username,
+[7m  [0m [91m                    ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m76[0m:[93m17[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m76[0m           role: user.role,
+[7m  [0m [91m                ~~~~[0m
+
+2024-08-27T14:22:30.853Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:22:43.950Z [info]: Connected to database
+2024-08-27T14:22:44.282Z [error]: Error loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.ts[0m:[93m66[0m:[93m34[0m - [91merror[0m[90m TS2554: [0mExpected 2-3 arguments, but got 1.
+
+[7m66[0m       const valid = await argon2.verify( password);
+[7m  [0m [91m                                 ~~~~~~[0m
+
+  [96mnode_modules/argon2/argon2.d.cts[0m:[93m75[0m:[93m40[0m
+    [7m75[0m export function verify(digest: string, password: Buffer | string, options?: {
+    [7m  [0m [96m                                       ~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    An argument for 'password' was not provided.
+[96msrc/controllers/auth.ts[0m:[93m73[0m:[93m15[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m73[0m           id: user.user_id,
+[7m  [0m [91m              ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m74[0m:[93m18[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m74[0m           email: user.email,
+[7m  [0m [91m                 ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m75[0m:[93m21[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m75[0m           username: user.username,
+[7m  [0m [91m                    ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m76[0m:[93m17[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m76[0m           role: user.role,
+[7m  [0m [91m                ~~~~[0m
+
+2024-08-27T14:22:44.289Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:22:52.761Z [info]: Connected to database
+2024-08-27T14:22:53.089Z [error]: Error loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.ts[0m:[93m66[0m:[93m41[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m66[0m       const valid = await argon2.verify(user.password, password);
+[7m  [0m [91m                                        ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m73[0m:[93m15[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m73[0m           id: user.user_id,
+[7m  [0m [91m              ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m74[0m:[93m18[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m74[0m           email: user.email,
+[7m  [0m [91m                 ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m75[0m:[93m21[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m75[0m           username: user.username,
+[7m  [0m [91m                    ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m76[0m:[93m17[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m76[0m           role: user.role,
+[7m  [0m [91m                ~~~~[0m
+
+2024-08-27T14:22:53.096Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:23:15.920Z [info]: Connected to database
+2024-08-27T14:23:16.262Z [error]: Error loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.ts[0m:[93m66[0m:[93m41[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+
+[7m66[0m       const valid = await argon2.verify(user?.password, password);
+[7m  [0m [91m                                        ~~~~~~~~~~~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m73[0m:[93m15[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m73[0m           id: user.user_id,
+[7m  [0m [91m              ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m74[0m:[93m18[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m74[0m           email: user.email,
+[7m  [0m [91m                 ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m75[0m:[93m21[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m75[0m           username: user.username,
+[7m  [0m [91m                    ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m76[0m:[93m17[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m76[0m           role: user.role,
+[7m  [0m [91m                ~~~~[0m
+
+2024-08-27T14:23:16.269Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:23:28.594Z [info]: Connected to database
+2024-08-27T14:23:28.972Z [error]: Error loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.ts[0m:[93m73[0m:[93m15[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m73[0m           id: user.user_id,
+[7m  [0m [91m              ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m74[0m:[93m18[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m74[0m           email: user.email,
+[7m  [0m [91m                 ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m75[0m:[93m21[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m75[0m           username: user.username,
+[7m  [0m [91m                    ~~~~[0m
+[96msrc/controllers/auth.ts[0m:[93m76[0m:[93m17[0m - [91merror[0m[90m TS18047: [0m'user' is possibly 'null'.
+
+[7m76[0m           role: user.role,
+[7m  [0m [91m                ~~~~[0m
+
+2024-08-27T14:23:28.979Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:23:37.235Z [info]: Connected to database
+2024-08-27T14:23:37.980Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:25:20.708Z [info]: Connected to database
+2024-08-27T14:25:21.165Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:29:54.615Z [info]: Connected to database
+2024-08-27T14:29:55.089Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:48:54.263Z [info]: Connected to database
+2024-08-27T14:48:54.824Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:52:45.326Z [info]: Connected to database
+2024-08-27T14:52:50.033Z [info]: Connected to database
+2024-08-27T14:52:50.470Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:52:54.824Z [info]: Connected to database
+2024-08-27T14:52:55.418Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:55:47.149Z [info]: Connected to database
+2024-08-27T14:55:47.872Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:56:25.360Z [info]: Connected to database
+2024-08-27T14:56:26.050Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:56:32.234Z [info]: Connected to database
+2024-08-27T14:56:32.745Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:56:51.671Z [info]: Connected to database
+2024-08-27T14:56:52.163Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:57:27.864Z [info]: Connected to database
+2024-08-27T14:57:28.378Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T14:58:14.381Z [info]: Connected to database
+2024-08-27T14:58:15.100Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T15:01:58.016Z [info]: Connected to database
+2024-08-27T15:01:58.507Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T15:02:21.330Z [info]: Connected to database
+2024-08-27T15:02:21.978Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T15:02:26.487Z [info]: Connected to database
+2024-08-27T15:02:26.992Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T15:02:44.318Z [info]: Connected to database
+2024-08-27T15:02:45.134Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T15:03:10.212Z [info]: Connected to database
+2024-08-27T15:03:10.546Z [error]: Error loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/auth.ts[0m:[93m19[0m:[93m39[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m19[0m     this.router.get(`${this.path}/me`,, this.authController.getUserMe);
+[7m  [0m [91m                                      ~[0m
+
+2024-08-27T15:03:10.553Z [info]: 🚀 Server is running on http://localhost:3000
+2024-08-27T15:03:16.442Z [info]: Connected to database
+2024-08-27T15:03:16.942Z [info]: 🚀 Server is running on http://localhost:3000
