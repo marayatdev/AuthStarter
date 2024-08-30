@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client";
-import logger, { logDebug, logError } from "../utils/logger";
+import logger from "../utils/logger";
 
 export class AuthService {
   private prisma = new PrismaClient();

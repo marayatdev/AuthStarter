@@ -1,6 +1,6 @@
 import { Router, Request, Response } from "express";
 import { AuthController } from "../controllers/auth";
-import { authenticateToken } from "../middlewares/auth";
+import { authenticateToken } from "../shared/middlewares/auth";
 
 export class AuthRoutes {
   public path: string = "/auth";

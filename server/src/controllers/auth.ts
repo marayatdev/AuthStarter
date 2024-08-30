@@ -2,7 +2,7 @@ import { NextFunction, Request, Response } from "express";
 import { AuthService } from "../services/auth.service";
 import { TypedRequestBody } from "../utils/request";
 import argon2 from "argon2";
-import upload from "../middlewares/upload";
+import upload from "../shared/middlewares/upload";
 import jwt from "jsonwebtoken";
 
 export class AuthController {
