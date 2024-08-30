@@ -1,11 +1,8 @@
-
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Register from './pages/Auth/Register/Register';
-import { Login } from './pages/Auth/Login/Login';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Register } from "./pages/Auth/Register/Register";
+import { Login } from "./pages/Auth/Login/Login";
 
 function App() {
-
   return (
     <>
       <BrowserRouter>
@@ -17,7 +14,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

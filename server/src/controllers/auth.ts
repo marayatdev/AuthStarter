@@ -2,8 +2,9 @@ import { NextFunction, Request, Response } from "express";
 import { AuthService } from "../services/auth.service";
 import { TypedRequestBody } from "../utils/request";
 import argon2 from "argon2";
-import upload from "../middlewares/upload";
+import upload from "../shared/middlewares/upload";
 import jwt from "jsonwebtoken";
+import path from 'path';
 
 export class AuthController {
   private jwtSecret = process.env.JWT_SECRET || "default_secret";
@@ -20,7 +21,6 @@ export class AuthController {
     next: NextFunction
   ) => {
     try {
-      // Handle file upload
       upload.single("image_profile")(req, res, async (err) => {
         if (err) {
           return res.status(400).json({ message: err.message });
@@ -28,22 +28,20 @@ export class AuthController {
 
         const { username, email, password } = req.body;
         const imagePath = req.file?.path;
+        const imageName = imagePath ? path.basename(imagePath) : "";
 
-        // Check if email already exists
         const existingEmail = await this.authService.findEmail(email);
         if (existingEmail) {
           return res.status(409).json({ message: "Email already exists" });
         }
 
-        // Hash the password
         const hashPassword = await argon2.hash(password);
 
-        // Create the user
         const user = await this.authService.createUser(
           username,
           email,
           hashPassword,
-          imagePath ?? ""
+          imageName
         );
 
         return res.status(201).json(user);

@@ -1,6 +1,5 @@
 import axios from "axios";
 
-// Define the base URL for your API
 const API_URL = import.meta.env.VITE_URL_ENDPOINT_API;
 
 export interface LoginResponse {
