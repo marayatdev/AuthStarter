@@ -7,6 +7,7 @@ import jwt from "jsonwebtoken";
 
 export class AuthController {
   private jwtSecret = process.env.JWT_SECRET || "default_secret";
+  private refreshTokenSecret = process.env.REFRESH_TOKEN_SECRET || "default_refresh_secret";
   private authService = new AuthService();
 
   public createUser = async (
@@ -18,21 +19,26 @@ export class AuthController {
     res: Response,
     next: NextFunction
   ) => {
-    upload.single("image_profile")(req, res, async (err) => {
-      if (err) {
-        return res.status(400).json({ message: err.message });
-      }
-      try {
+    try {
+      // Handle file upload
+      upload.single("image_profile")(req, res, async (err) => {
+        if (err) {
+          return res.status(400).json({ message: err.message });
+        }
+
         const { username, email, password } = req.body;
         const imagePath = req.file?.path;
 
-        const hashPassword = await argon2.hash(password);
-
+        // Check if email already exists
         const existingEmail = await this.authService.findEmail(email);
         if (existingEmail) {
           return res.status(409).json({ message: "Email already exists" });
         }
 
+        // Hash the password
+        const hashPassword = await argon2.hash(password);
+
+        // Create the user
         const user = await this.authService.createUser(
           username,
           email,
@@ -41,10 +47,10 @@ export class AuthController {
         );
 
         return res.status(201).json(user);
-      } catch (error) {
-        next(error);
-      }
-    });
+      });
+    } catch (error) {
+      next(error);
+    }
   };
 
   public loginUser = async (
@@ -57,15 +63,15 @@ export class AuthController {
   ) => {
     try {
       const { email, password } = req.body;
-      const user = await this.authService.findEmail(email);
 
+      const user = await this.authService.findEmail(email);
       if (!user) {
-        return res.status(404).json({ message: "user not found" });
+        return res.status(404).json({ message: "User not found" });
       }
 
       const valid = await argon2.verify(user.password, password);
       if (!valid) {
-        return res.status(401).json({ message: "invalid credentials" });
+        return res.status(401).json({ message: "Invalid credentials" });
       }
 
       const token = jwt.sign(
@@ -76,13 +82,48 @@ export class AuthController {
           role: user.role,
         },
         this.jwtSecret,
-        {
-          expiresIn: "1h",
-        }
+        { expiresIn: "1m" }
       );
-      return res.json({ token });
+
+      const refreshToken = jwt.sign(
+        { id: user.user_id },
+        this.refreshTokenSecret,
+        { expiresIn: "7d" } // Refresh token with longer lifespan
+      );
+
+      return res.json({ token, refreshToken });
     } catch (error) {
-      console.log(error);
+      next(error);
+    }
+  };
+
+  public refreshToken = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) => {
+    try {
+      const { refreshToken } = req.body;
+      if (!refreshToken) {
+        return res.status(400).json({ message: "Refresh token is required" });
+      }
+
+      jwt.verify(refreshToken, this.refreshTokenSecret, (err: jwt.VerifyErrors | null, decoded: any) => {
+        if (err) {
+          return res.status(403).json({ message: "Invalid refresh token" });
+        }
+
+        const newToken = jwt.sign(
+          {
+            id: decoded.id,
+          },
+          this.jwtSecret,
+          { expiresIn: "15m" }
+        );
+
+        return res.json({ token: newToken });
+      });
+    } catch (error) {
       next(error);
     }
   };
@@ -115,42 +156,5 @@ export class AuthController {
     }
   };
 
-  public refreshToken = async (
-    req: Request,
-    res: Response,
-    next: NextFunction
-  ) => {
-    try {
-      // Extract refresh token from the request
-      const { refreshToken } = req.body;
 
-      if (!refreshToken) {
-        return res.status(401).json({ message: "Refresh token missing" });
-      }
-
-      // Verify refresh token
-      const decoded = jwt.verify(
-        refreshToken,
-        this.jwtSecret
-      ) as jwt.JwtPayload;
-
-      // Generate a new access token
-      const newToken = jwt.sign(
-        {
-          id: decoded.id,
-          email: decoded.email,
-          username: decoded.username,
-          role: decoded.role,
-        },
-        this.jwtSecret,
-        {
-          expiresIn: "1h", // Set expiration time as needed
-        }
-      );
-
-      return res.json({ token: newToken });
-    } catch (error) {
-      next(error);
-    }
-  };
 }
