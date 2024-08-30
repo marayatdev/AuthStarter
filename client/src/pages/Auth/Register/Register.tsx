@@ -12,6 +12,7 @@ import classes from "./AuthenticationTitle.module.css";
 import { useForm } from "@mantine/form";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import { useState } from "react";
 
 interface Register {
   username: string;
@@ -20,11 +21,28 @@ interface Register {
   image_profile: File | null;
 }
 
+interface ErrorProps {
+  error: string;
+  path: string;
+  hasError: boolean;
+}
+
 export function Register() {
   const navigate = useNavigate();
   const API_URL = import.meta.env.VITE_URL_ENDPOINT_API;
+  const [error, setError] = useState<ErrorProps | null>(null);
 
+  const form = useForm<Register>({
+    mode: "uncontrolled",
+    initialValues: {
+      username: "marayat",
+      email: "marayat@gmail.com",
+      password: "1234",
+      image_profile: null,
+    },
+  });
   const handleSubmit = async (value: Register) => {
+    form.clearErrors();
     try {
       const formData = new FormData();
       formData.append("username", value.username);
@@ -48,20 +66,19 @@ export function Register() {
         console.log(response.data);
         navigate("/");
       }
-    } catch (error) {
-      console.log(error);
+    } catch (error: any) {
+      if (error.response && error.response.data) {
+        const errorData = error.response.data;
+        setError(errorData);
+
+        if (errorData.path && errorData.error) {
+          form.setFieldError(errorData.path, errorData.error);
+        }
+      } else {
+        console.error("An unexpected error occurred:", error);
+      }
     }
   };
-
-  const form = useForm<Register>({
-    mode: "uncontrolled",
-    initialValues: {
-      username: "marayat",
-      email: "marayat@gmail.com",
-      password: "1234",
-      image_profile: null,
-    },
-  });
 
   return (
     <div className={classes.wrapper}>

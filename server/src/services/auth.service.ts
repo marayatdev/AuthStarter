@@ -26,4 +26,5 @@ export class AuthService {
       where: { user_id: userId },
     });
   }
+
 }

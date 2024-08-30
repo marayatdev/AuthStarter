@@ -1,0 +1,760 @@
+2024-08-30 11:49:33:4933 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 11:49:33:4933 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m18[0m - [91merror[0m[90m TS2614: [0mModule '"../utils/logger"' has no exported member 'logDebug'. Did you mean to use 'import logDebug from "../utils/logger"' instead?[39m
+
+[31m[7m2[0m import logger, { logDebug, logError } from "../utils/logger";[39m
+[31m[7m [0m [91m                 ~~~~~~~~[0m[39m
+[31m[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m28[0m - [91merror[0m[90m TS2614: [0mModule '"../utils/logger"' has no exported member 'logError'. Did you mean to use 'import logError from "../utils/logger"' instead?[39m
+
+[31m[7m2[0m import logger, { logDebug, logError } from "../utils/logger";[39m
+[31m[7m [0m [91m                           ~~~~~~~~[0m[39m
+[31m[39m
+2024-08-30 11:49:33:4933 [32minfo[39m: [32m🚀 Server is running on http://localhost:3000[39m
+2024-08-30 11:49:44:4944 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 11:49:44:4944 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m18[0m - [91merror[0m[90m TS2614: [0mModule '"../utils/logger"' has no exported member 'logDebug'. Did you mean to use 'import logDebug from "../utils/logger"' instead?[39m
+
+[31m[7m2[0m import logger, { logDebug, logError } from "../utils/logger";[39m
+[31m[7m [0m [91m                 ~~~~~~~~[0m[39m
+[31m[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m28[0m - [91merror[0m[90m TS2614: [0mModule '"../utils/logger"' has no exported member 'logError'. Did you mean to use 'import logError from "../utils/logger"' instead?[39m
+
+[31m[7m2[0m import logger, { logDebug, logError } from "../utils/logger";[39m
+[31m[7m [0m [91m                           ~~~~~~~~[0m[39m
+[31m[39m
+2024-08-30 11:49:44:4944 [32minfo[39m: [32m🚀 Server is running on http://localhost:3000[39m
+2024-08-30 11:50:06:506 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 11:50:06:506 [32minfo[39m: [32m🚀 Server is running on http://localhost:3000[39m
+2024-08-30 11:50:14:5014 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 11:50:14:5014 [32minfo[39m: [32m🚀 Server is running on http://localhost:3000[39m
+2024-08-30 11:53:49:5349 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 11:53:49:5349 [32minfo[39m: [32m=================================[39m
+2024-08-30 11:53:49:5349 [32minfo[39m: [32m🚀 Server is running on http://localhost:3000[39m
+2024-08-30 11:53:49:5349 [32minfo[39m: [32m=================================[39m
+2024-08-30 11:54:41:5441 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 11:54:41:5441 [32minfo[39m: [32m=================================[39m
+2024-08-30 11:54:41:5441 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 11:54:41:5441 [32minfo[39m: [32m🚀 Server is running on http://localhost:3000[39m
+2024-08-30 11:54:41:5441 [32minfo[39m: [32m=================================[39m
+2024-08-30 11:55:29:5529 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 11:55:30:5530 [32minfo[39m: [32m=================================[39m
+2024-08-30 11:55:30:5530 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 11:55:30:5530 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 11:55:30:5530 [32minfo[39m: [32m=================================[39m
+2024-08-30 11:59:36:5936 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 11:59:36:5936 [32minfo[39m: [32m=================================[39m
+2024-08-30 11:59:36:5936 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 11:59:36:5936 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 11:59:36:5936 [32minfo[39m: [32m=================================[39m
+2024-08-30 12:03:35:335 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 12:03:35:335 [32minfo[39m: [32m=================================[39m
+2024-08-30 12:03:35:335 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 12:03:35:335 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 12:03:35:335 [32minfo[39m: [32m=================================[39m
+2024-08-30 12:03:40:340 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 12:03:40:340 [32minfo[39m: [32m=================================[39m
+2024-08-30 12:03:40:340 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 12:03:40:340 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 12:03:40:340 [32minfo[39m: [32m=================================[39m
+2024-08-30 12:07:20:720 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 12:07:20:720 [32minfo[39m: [32m=================================[39m
+2024-08-30 12:07:20:720 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 12:07:20:720 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 12:07:20:720 [32minfo[39m: [32m=================================[39m
+2024-08-30 12:07:53:753 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 12:07:54:754 [32minfo[39m: [32m=================================[39m
+2024-08-30 12:07:54:754 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 12:07:54:754 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 12:07:54:754 [32minfo[39m: [32m=================================[39m
+2024-08-30 12:08:23:823 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 12:08:24:824 [32minfo[39m: [32m=================================[39m
+2024-08-30 12:08:24:824 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 12:08:24:824 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 12:08:24:824 [32minfo[39m: [32m=================================[39m
+2024-08-30 12:08:34:834 [32mhttp[39m: [32m::1 POST /api/auth/login 200 386 - 79.797 ms[39m
+2024-08-30 13:10:40:1040 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.765 ms[39m
+2024-08-30 13:10:40:1040 [32mhttp[39m: [32m::1 POST /api/auth/login 200 386 - 63.075 ms[39m
+2024-08-30 13:10:50:1050 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.350 ms[39m
+2024-08-30 13:10:50:1050 [32mhttp[39m: [32m::1 POST /api/auth/login 200 386 - 58.148 ms[39m
+2024-08-30 13:24:50:2450 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 0.164 ms[39m
+2024-08-30 13:24:50:2450 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 11.052 ms[39m
+2024-08-30 13:25:11:2511 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 0.155 ms[39m
+2024-08-30 13:25:11:2511 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 3.693 ms[39m
+2024-08-30 13:30:00:300 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 0.186 ms[39m
+2024-08-30 13:30:00:300 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 3.889 ms[39m
+2024-08-30 13:30:54:3054 [32mhttp[39m: [32m::1 POST /api/auth/register 400 37 - 4.711 ms[39m
+2024-08-30 13:31:05:315 [32mhttp[39m: [32m::1 POST /api/auth/register 400 37 - 4.690 ms[39m
+2024-08-30 13:31:16:3116 [32mhttp[39m: [32m::1 POST /api/auth/register 400 182 - 7.295 ms[39m
+2024-08-30 13:31:27:3127 [32mhttp[39m: [32m::1 POST /api/auth/register 201 255 - 103.793 ms[39m
+2024-08-30 13:34:08:348 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 13:34:09:349 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:34:09:349 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 13:34:09:349 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 13:34:09:349 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:34:15:3415 [32mhttp[39m: [32m::1 POST /api/auth/register 400 182 - 17.337 ms[39m
+2024-08-30 13:35:14:3514 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 13:35:14:3514 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:35:14:3514 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 13:35:14:3514 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 13:35:14:3514 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:35:20:3520 [32mhttp[39m: [32m::1 POST /api/auth/register 400 195 - 20.400 ms[39m
+2024-08-30 13:35:21:3521 [32mhttp[39m: [32m::1 POST /api/auth/register 400 195 - 1.961 ms[39m
+2024-08-30 13:35:22:3522 [32mhttp[39m: [32m::1 POST /api/auth/register 400 195 - 4.279 ms[39m
+2024-08-30 13:35:33:3533 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 13:35:33:3533 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:35:33:3533 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 13:35:33:3533 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 13:35:33:3533 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:35:34:3534 [32mhttp[39m: [32m::1 POST /api/auth/register 400 200 - 7.941 ms[39m
+2024-08-30 13:35:49:3549 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 13:35:49:3549 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:35:49:3549 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 13:35:49:3549 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 13:35:49:3549 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:35:50:3550 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 37.685 ms[39m
+2024-08-30 13:35:52:3552 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 8.184 ms[39m
+2024-08-30 13:35:59:3559 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 13:36:00:360 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:36:00:360 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 13:36:00:360 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 13:36:00:360 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:36:01:361 [32mhttp[39m: [32m::1 POST /api/auth/register 400 182 - 12.328 ms[39m
+2024-08-30 13:36:19:3619 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 13:36:19:3619 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:36:19:3619 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 13:36:19:3619 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 13:36:19:3619 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:36:22:3622 [32mhttp[39m: [32m::1 POST /api/auth/register 400 182 - 15.608 ms[39m
+2024-08-30 13:36:30:3630 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 13:36:31:3631 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:36:31:3631 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 13:36:31:3631 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 13:36:31:3631 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:36:32:3632 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 40.332 ms[39m
+2024-08-30 13:36:42:3642 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 0.608 ms[39m
+2024-08-30 13:36:42:3642 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 13.005 ms[39m
+2024-08-30 13:36:43:3643 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 3.417 ms[39m
+2024-08-30 13:37:10:3710 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 8.469 ms[39m
+2024-08-30 13:37:16:3716 [32mhttp[39m: [32m::1 POST /api/auth/register 201 397 - 113.403 ms[39m
+2024-08-30 13:37:36:3736 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 13:37:36:3736 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:37:36:3736 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 13:37:36:3736 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 13:37:36:3736 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:39:38:3938 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 13:39:38:3938 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:39:38:3938 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 13:39:38:3938 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 13:39:38:3938 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:39:47:3947 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 13:39:47:3947 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:39:47:3947 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 13:39:47:3947 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 13:39:47:3947 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:39:56:3956 [32mhttp[39m: [32m::1 POST /api/auth/register 201 305 - 117.051 ms[39m
+2024-08-30 13:40:06:406 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 13:40:06:406 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:40:06:406 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 13:40:06:406 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 13:40:06:406 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:40:08:408 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 13:40:09:409 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:40:09:409 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 13:40:09:409 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 13:40:09:409 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:40:10:4010 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 13:40:11:4011 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:40:11:4011 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 13:40:11:4011 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 13:40:11:4011 [32minfo[39m: [32m=================================[39m
+2024-08-30 13:42:55:4255 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 1.103 ms[39m
+2024-08-30 13:42:55:4255 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 21.540 ms[39m
+2024-08-30 13:46:51:4651 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 0.270 ms[39m
+2024-08-30 13:46:51:4651 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 4.488 ms[39m
+2024-08-30 13:47:31:4731 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 0.135 ms[39m
+2024-08-30 13:47:31:4731 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 4.611 ms[39m
+2024-08-30 13:47:36:4736 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 3.642 ms[39m
+2024-08-30 13:47:50:4750 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 0.115 ms[39m
+2024-08-30 13:47:50:4750 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 3.919 ms[39m
+2024-08-30 13:52:12:5212 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 9.561 ms[39m
+2024-08-30 13:52:28:5228 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 4.438 ms[39m
+2024-08-30 13:53:40:5340 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 0.107 ms[39m
+2024-08-30 13:53:40:5340 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 4.705 ms[39m
+2024-08-30 13:57:29:5729 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 0.237 ms[39m
+2024-08-30 13:57:29:5729 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 4.106 ms[39m
+2024-08-30 13:57:43:5743 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 0.159 ms[39m
+2024-08-30 13:57:43:5743 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 2.832 ms[39m
+2024-08-30 13:58:05:585 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 11.726 ms[39m
+2024-08-30 14:19:46:1946 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 0.138 ms[39m
+2024-08-30 14:19:46:1946 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 24.391 ms[39m
+2024-08-30 14:20:49:2049 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 14:20:49:2049 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:20:49:2049 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 14:20:49:2049 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 14:20:49:2049 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:21:12:2112 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 14:21:12:2112 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:21:12:2112 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 14:21:12:2112 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 14:21:12:2112 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:21:17:2117 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 1.128 ms[39m
+2024-08-30 14:21:17:2117 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 53.300 ms[39m
+2024-08-30 14:21:36:2136 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 0.246 ms[39m
+2024-08-30 14:21:36:2136 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 3.809 ms[39m
+2024-08-30 14:21:44:2144 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 0.113 ms[39m
+2024-08-30 14:21:44:2144 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 2.706 ms[39m
+2024-08-30 14:21:58:2158 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 14:21:58:2158 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:21:58:2158 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 14:21:58:2158 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 14:21:58:2158 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:23:00:230 [32mhttp[39m: [32m::1 OPTIONS /api/auth/register 204 0 - 1.887 ms[39m
+2024-08-30 14:23:00:230 [32mhttp[39m: [32m::1 POST /api/auth/register 201 282 - 100.527 ms[39m
+2024-08-30 14:24:45:2445 [32mhttp[39m: [32m::1 POST /api/auth/register 201 314 - 76.278 ms[39m
+2024-08-30 14:25:48:2548 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.188 ms[39m
+2024-08-30 14:25:48:2548 [32mhttp[39m: [32m::1 POST /api/auth/login 200 383 - 66.287 ms[39m
+2024-08-30 14:32:46:3246 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 10.190 ms[39m
+2024-08-30 14:32:51:3251 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 3.058 ms[39m
+2024-08-30 14:32:53:3253 [32mhttp[39m: [32m::1 GET /api/auth/register 404 156 - 2.040 ms[39m
+2024-08-30 14:36:48:3648 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 5.505 ms[39m
+2024-08-30 14:36:51:3651 [32mhttp[39m: [32m::1 GET /api/auth/register 404 156 - 0.528 ms[39m
+2024-08-30 14:36:54:3654 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 3.373 ms[39m
+2024-08-30 14:36:57:3657 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 2.995 ms[39m
+2024-08-30 14:37:00:370 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 3.388 ms[39m
+2024-08-30 14:37:14:3714 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 6.758 ms[39m
+2024-08-30 14:37:43:3743 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 7.557 ms[39m
+2024-08-30 14:37:52:3752 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 6.904 ms[39m
+2024-08-30 14:37:55:3755 [32mhttp[39m: [32m::1 POST /api/auth/register 409 34 - 5.566 ms[39m
+2024-08-30 14:39:00:390 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 14:39:01:391 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:39:01:391 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 14:39:01:391 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 14:39:01:391 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:39:09:399 [32mhttp[39m: [32m::1 POST /api/auth/register 409 49 - 24.925 ms[39m
+2024-08-30 14:39:17:3917 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 14:39:18:3918 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:39:18:3918 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 14:39:18:3918 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 14:39:18:3918 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:39:23:3923 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 14:39:23:3923 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:39:23:3923 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 14:39:23:3923 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 14:39:23:3923 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:39:56:3956 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 14:39:57:3957 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:39:57:3957 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 14:39:57:3957 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 14:39:57:3957 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:40:15:4015 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 14:40:16:4016 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:40:16:4016 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 14:40:16:4016 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 14:40:16:4016 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:40:22:4022 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 14:40:22:4022 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:40:22:4022 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 14:40:22:4022 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 14:40:22:4022 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:40:37:4037 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 14:40:37:4037 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:40:37:4037 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 14:40:37:4037 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 14:40:37:4037 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:40:53:4053 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 14:40:53:4053 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:40:53:4053 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 14:40:53:4053 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 14:40:53:4053 [32minfo[39m: [32m=================================[39m
+2024-08-30 14:47:02:472 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 64.323 ms[39m
+2024-08-30 14:47:05:475 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 8.567 ms[39m
+2024-08-30 14:47:49:4749 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 7.123 ms[39m
+2024-08-30 14:52:28:5228 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 4.298 ms[39m
+2024-08-30 14:52:32:5232 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 3.171 ms[39m
+2024-08-30 14:54:30:5430 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 4.001 ms[39m
+2024-08-30 14:55:37:5537 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 50.161 ms[39m
+2024-08-30 14:55:45:5545 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 12.816 ms[39m
+2024-08-30 14:55:46:5546 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 11.054 ms[39m
+2024-08-30 14:55:55:5555 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 12.913 ms[39m
+2024-08-30 14:56:00:560 [32mhttp[39m: [32m::1 POST /api/auth/register 201 360 - 108.148 ms[39m
+2024-08-30 14:57:51:5751 [32mhttp[39m: [32m::1 POST /api/auth/register 201 315 - 74.486 ms[39m
+2024-08-30 14:57:58:5758 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 4.295 ms[39m
+2024-08-30 14:58:01:581 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 5.430 ms[39m
+2024-08-30 14:58:50:5850 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 6.117 ms[39m
+2024-08-30 15:00:14:014 [32mhttp[39m: [32m::1 POST /api/auth/register 201 305 - 79.018 ms[39m
+2024-08-30 15:00:27:027 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 3.700 ms[39m
+2024-08-30 15:00:29:029 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 8.856 ms[39m
+2024-08-30 15:01:26:126 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:01:27:127 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:01:27:127 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:01:27:127 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:01:27:127 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:11:23:1123 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:11:23:1123 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:11:23:1123 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:11:23:1123 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:11:23:1123 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:12:35:1235 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:12:35:1235 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:12:35:1235 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:12:35:1235 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:12:35:1235 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:13:39:1339 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:13:39:1339 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m40[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m40[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:13:39:1339 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:13:39:1339 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:13:39:1339 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:13:39:1339 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:14:31:1431 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:14:31:1431 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m41[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m41[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:14:31:1431 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:14:31:1431 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:14:31:1431 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:14:31:1431 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:15:22:1522 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:15:22:1522 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m29[0m:[93m15[0m - [91merror[0m[90m TS2339: [0mProperty 'image_profile' does not exist on type 'File | undefined'.[39m
+
+[31m[7m29[0m       const { image_profile } = req.file[39m
+[31m[7m  [0m [91m              ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m42[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m42[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:15:22:1522 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:15:22:1522 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:15:22:1522 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:15:22:1522 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:15:31:1531 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:15:31:1531 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m29[0m:[93m15[0m - [91merror[0m[90m TS2339: [0mProperty 'image_profile' does not exist on type 'File | undefined'.[39m
+
+[31m[7m29[0m       const { image_profile } = req.file[39m
+[31m[7m  [0m [91m              ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m42[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m42[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:15:31:1531 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:15:31:1531 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:15:31:1531 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:15:31:1531 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:16:12:1612 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:16:13:1613 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m41[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m41[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:16:13:1613 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:16:13:1613 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:16:13:1613 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:16:13:1613 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:16:55:1655 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:16:56:1656 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m41[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m41[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:16:56:1656 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:16:56:1656 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:16:56:1656 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:16:56:1656 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:17:30:1730 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:17:30:1730 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m29[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty 'image_profile' does not exist on type '{ [fieldname: string]: File[]; } | File[]'.[39m
+[31m  Property 'image_profile' does not exist on type 'File[]'.[39m
+
+[31m[7m29[0m       const pic = req.files?.image_profile;[39m
+[31m[7m  [0m [91m                             ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m42[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m42[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:17:31:1731 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:17:31:1731 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:17:31:1731 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:17:31:1731 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:17:37:1737 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:17:37:1737 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m42[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m42[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:17:37:1737 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:17:37:1737 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:17:37:1737 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:17:37:1737 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:17:44:1744 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:17:44:1744 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m45[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m45[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:17:44:1744 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:17:44:1744 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:17:44:1744 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:17:44:1744 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:17:48:1748 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:17:48:1748 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m49[0m:[93m9[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ [fieldname: string]: File[]; } | File[] | undefined' is not assignable to parameter of type 'string'.[39m
+[31m  Type 'undefined' is not assignable to type 'string'.[39m
+
+[31m[7m49[0m         pic[39m
+[31m[7m  [0m [91m        ~~~[0m[39m
+[31m[39m
+2024-08-30 15:17:48:1748 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:17:48:1748 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:17:48:1748 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:17:48:1748 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:18:00:180 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:18:00:180 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m49[0m:[93m9[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ [fieldname: string]: File[]; } | File[] | undefined' is not assignable to parameter of type 'string'.[39m
+[31m  Type 'undefined' is not assignable to type 'string'.[39m
+
+[31m[7m49[0m         pic[39m
+[31m[7m  [0m [91m        ~~~[0m[39m
+[31m[39m
+2024-08-30 15:18:00:180 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:18:00:180 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:18:00:180 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:18:00:180 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:18:03:183 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:18:03:183 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m45[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m45[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:18:03:183 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:18:03:183 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:18:03:183 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:18:03:183 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:18:14:1814 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:18:15:1815 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/services/auth.service.ts[0m:[93m19[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType '{ username: string; email: string; password: string; }' is not assignable to type '(Without<usersCreateInput, usersUncheckedCreateInput> & usersUncheckedCreateInput) | (Without<...> & usersCreateInput)'.[39m
+[31m  Type '{ username: string; email: string; password: string; }' is not assignable to type 'Without<usersUncheckedCreateInput, usersCreateInput> & usersCreateInput'.[39m
+[31m    Property 'image_profile' is missing in type '{ username: string; email: string; password: string; }' but required in type 'usersCreateInput'.[39m
+
+[31m[7m19[0m       data: { username, email, password },[39m
+[31m[7m  [0m [91m      ~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1929[0m:[93m5[0m[39m
+[31m    [7m1929[0m     image_profile: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~~~~~~~[0m[39m
+[31m    'image_profile' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1673[0m:[93m5[0m[39m
+[31m    [7m1673[0m     data: XOR<usersCreateInput, usersUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~[0m[39m
+[31m    The expected type comes from property 'data' which is declared here on type '{ select?: usersSelect<DefaultArgs> | null | undefined; data: (Without<usersCreateInput, usersUncheckedCreateInput> & usersUncheckedCreateInput) | (Without<...> & usersCreateInput); }'[39m
+[31m[39m
+2024-08-30 15:18:15:1815 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:18:15:1815 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:18:15:1815 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:18:15:1815 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:19:12:1912 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:19:13:1913 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:19:13:1913 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:19:13:1913 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:19:13:1913 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:19:27:1927 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 65.303 ms[39m
+2024-08-30 15:19:36:1936 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 11.271 ms[39m
+2024-08-30 15:19:45:1945 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 4.597 ms[39m
+2024-08-30 15:20:13:2013 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:20:14:2014 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:20:14:2014 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:20:14:2014 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:20:14:2014 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:20:15:2015 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 14.244 ms[39m
+2024-08-30 15:20:16:2016 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 9.616 ms[39m
+2024-08-30 15:20:18:2018 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 9.788 ms[39m
+2024-08-30 15:20:41:2041 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:20:41:2041 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:20:41:2041 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:20:41:2041 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:20:41:2041 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:20:59:2059 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:20:59:2059 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m41[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m41[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:20:59:2059 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:20:59:2059 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:20:59:2059 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:20:59:2059 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:21:12:2112 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:21:12:2112 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m41[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m41[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:21:12:2112 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:21:12:2112 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:21:12:2112 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:21:12:2112 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:23:41:2341 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:23:41:2341 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:23:41:2341 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:23:41:2341 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:23:41:2341 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:23:57:2357 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:23:58:2358 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:23:58:2358 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:23:58:2358 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:23:58:2358 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:24:22:2422 [32mhttp[39m: [32m::1 POST /api/auth/register 201 398 - 92.376 ms[39m
+2024-08-30 15:24:39:2439 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 8.687 ms[39m
+2024-08-30 15:25:50:2550 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:25:50:2550 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:25:50:2550 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:25:50:2550 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:25:50:2550 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:25:59:2559 [32mhttp[39m: [32m::1 POST /api/auth/register 201 306 - 135.674 ms[39m
+2024-08-30 15:32:02:322 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:32:02:322 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:32:02:322 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:32:02:322 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:32:02:322 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:32:07:327 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:32:08:328 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:32:08:328 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:32:08:328 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:32:08:328 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:33:05:335 [32mhttp[39m: [32m::1 POST /api/auth/register 201 306 - 105.096 ms[39m
+2024-08-30 15:33:11:3311 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 4.569 ms[39m
+2024-08-30 15:33:13:3313 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 11.899 ms[39m
+2024-08-30 15:34:06:346 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:34:06:346 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:34:06:346 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:34:06:346 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:34:06:346 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:34:11:3411 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:34:12:3412 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:34:12:3412 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:34:12:3412 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:34:12:3412 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:34:18:3418 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:34:18:3418 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m16[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'id' does not exist in type 'usersWhereUniqueInput'.[39m
+
+[31m[7m32[0m       where: { id: userId },[39m
+[31m[7m  [0m [91m               ~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1702[0m:[93m5[0m[39m
+[31m    [7m1702[0m     where: usersWhereUniqueInput[39m
+[31m    [7m    [0m [96m    ~~~~~[0m[39m
+[31m    The expected type comes from property 'where' which is declared here on type '{ select?: usersSelect<DefaultArgs> | null | undefined; data: (Without<usersUpdateInput, usersUncheckedUpdateInput> & usersUncheckedUpdateInput) | (Without<...> & usersUpdateInput); where: usersWhereUniqueInput; }'[39m
+[31m[39m
+2024-08-30 15:34:18:3418 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:34:18:3418 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:34:18:3418 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:34:18:3418 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:34:40:3440 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:34:40:3440 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m16[0m - [91merror[0m[90m TS2322: [0mType 'string' is not assignable to type 'number'.[39m
+
+[31m[7m32[0m       where: { user_id: userId },[39m
+[31m[7m  [0m [91m               ~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1882[0m:[93m5[0m[39m
+[31m    [7m1882[0m     user_id?: number[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    The expected type comes from property 'user_id' which is declared here on type 'usersWhereUniqueInput'[39m
+[31m[39m
+2024-08-30 15:34:40:3440 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:34:40:3440 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:34:40:3440 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:34:40:3440 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:34:56:3456 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:34:56:3456 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:34:56:3456 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:34:56:3456 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:34:56:3456 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:35:04:354 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:35:04:354 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m54[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type '{ user_id: number; username: string; email: string; password: string; image_profile: string | null; role: string | null; createAt: Date | null; updateAt: Date | null; }'.[39m
+
+[31m[7m54[0m         await this.authService.updateUserImage(Number(user.id), imagePath); // ฟังก์ชันใหม่สำหรับการอัพเดทภาพโปรไฟล์[39m
+[31m[7m  [0m [91m                                                           ~~[0m[39m
+[31m[39m
+2024-08-30 15:35:04:354 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:35:04:354 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:35:04:354 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:35:04:354 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:35:19:3519 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:35:20:3520 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m54[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type '{ user_id: number; username: string; email: string; password: string; image_profile: string | null; role: string | null; createAt: Date | null; updateAt: Date | null; }'.[39m
+
+[31m[7m54[0m         await this.authService.updateUserImage(Number(user.id), imagePath);[39m
+[31m[7m  [0m [91m                                                           ~~[0m[39m
+[31m[39m
+2024-08-30 15:35:20:3520 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:35:20:3520 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:35:20:3520 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:35:20:3520 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:35:22:3522 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:35:22:3522 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m54[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type '{ user_id: number; username: string; email: string; password: string; image_profile: string | null; role: string | null; createAt: Date | null; updateAt: Date | null; }'.[39m
+
+[31m[7m54[0m         await this.authService.updateUserImage(Number(user.id), imagePath);[39m
+[31m[7m  [0m [91m                                                           ~~[0m[39m
+[31m[39m
+2024-08-30 15:35:22:3522 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:35:22:3522 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:35:22:3522 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:35:22:3522 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:35:43:3543 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:35:43:3543 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:35:43:3543 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:35:43:3543 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:35:43:3543 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:35:53:3553 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:35:53:3553 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m54[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type '{ user_id: number; username: string; email: string; password: string; image_profile: string | null; role: string | null; createAt: Date | null; updateAt: Date | null; }'.[39m
+
+[31m[7m54[0m         await this.authService.updateUserImage(Number(user.id), imagePath);[39m
+[31m[7m  [0m [91m                                                           ~~[0m[39m
+[31m[39m
+2024-08-30 15:35:53:3553 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:35:53:3553 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:35:53:3553 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:35:53:3553 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:36:05:365 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:36:05:365 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:36:05:365 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:36:05:365 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:36:05:365 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:36:10:3610 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 44.829 ms[39m
+2024-08-30 15:36:13:3613 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 7.750 ms[39m
+2024-08-30 15:36:26:3626 [32mhttp[39m: [32m::1 POST /api/auth/register 201 280 - 139.346 ms[39m
+2024-08-30 15:36:43:3643 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:36:43:3643 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m54[0m:[93m32[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUserImage' does not exist on type 'AuthService'.[39m
+
+[31m[7m54[0m         await this.authService.updateUserImage(Number(user.user_id), imagePath);[39m
+[31m[7m  [0m [91m                               ~~~~~~~~~~~~~~~[0m[39m
+[31m[39m
+2024-08-30 15:36:43:3643 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:36:43:3643 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:36:43:3643 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:36:43:3643 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:36:49:3649 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:36:49:3649 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:36:49:3649 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:36:49:3649 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:36:49:3649 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:37:48:3748 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:37:48:3748 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:37:48:3748 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:37:48:3748 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:37:48:3748 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:38:09:389 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:38:09:389 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:38:09:389 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:38:09:389 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:38:09:389 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:38:16:3816 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 19.045 ms[39m
+2024-08-30 15:38:23:3823 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 8.862 ms[39m
+2024-08-30 15:38:42:3842 [32mhttp[39m: [32m::1 POST /api/auth/register 500 467 - 13.008 ms[39m
+2024-08-30 15:38:46:3846 [32mhttp[39m: [32m::1 POST /api/auth/register 500 467 - 7.821 ms[39m
+2024-08-30 15:39:24:3924 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:39:25:3925 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:39:25:3925 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:39:25:3925 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:39:25:3925 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:39:27:3927 [32mhttp[39m: [32m::1 POST /api/auth/register 500 467 - 18.508 ms[39m
+2024-08-30 15:40:06:406 [32mhttp[39m: [32m::1 POST /api/auth/register 500 467 - 4.156 ms[39m
+2024-08-30 15:45:32:4532 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:45:33:4533 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:45:33:4533 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:45:33:4533 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:45:33:4533 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:45:41:4541 [32mhttp[39m: [32m::1 POST /api/auth/register 500 467 - 22.050 ms[39m
+2024-08-30 15:45:51:4551 [32mhttp[39m: [32m::1 POST /api/auth/register 500 467 - 14.660 ms[39m
+2024-08-30 15:46:02:462 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 15:46:03:463 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:46:03:463 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 15:46:03:463 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 15:46:03:463 [32minfo[39m: [32m=================================[39m
+2024-08-30 15:46:06:466 [32mhttp[39m: [32m::1 POST /api/auth/register 400 34 - 87.706 ms[39m
+2024-08-30 15:46:09:469 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 6.608 ms[39m
+2024-08-30 15:46:23:4623 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 7.787 ms[39m
+2024-08-30 15:46:32:4632 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 7.500 ms[39m

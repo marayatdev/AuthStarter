@@ -1,0 +1,248 @@
+2024-08-30 11:49:33:4933 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m18[0m - [91merror[0m[90m TS2614: [0mModule '"../utils/logger"' has no exported member 'logDebug'. Did you mean to use 'import logDebug from "../utils/logger"' instead?[39m
+
+[31m[7m2[0m import logger, { logDebug, logError } from "../utils/logger";[39m
+[31m[7m [0m [91m                 ~~~~~~~~[0m[39m
+[31m[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m28[0m - [91merror[0m[90m TS2614: [0mModule '"../utils/logger"' has no exported member 'logError'. Did you mean to use 'import logError from "../utils/logger"' instead?[39m
+
+[31m[7m2[0m import logger, { logDebug, logError } from "../utils/logger";[39m
+[31m[7m [0m [91m                           ~~~~~~~~[0m[39m
+[31m[39m
+2024-08-30 11:49:44:4944 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m18[0m - [91merror[0m[90m TS2614: [0mModule '"../utils/logger"' has no exported member 'logDebug'. Did you mean to use 'import logDebug from "../utils/logger"' instead?[39m
+
+[31m[7m2[0m import logger, { logDebug, logError } from "../utils/logger";[39m
+[31m[7m [0m [91m                 ~~~~~~~~[0m[39m
+[31m[96msrc/services/auth.service.ts[0m:[93m2[0m:[93m28[0m - [91merror[0m[90m TS2614: [0mModule '"../utils/logger"' has no exported member 'logError'. Did you mean to use 'import logError from "../utils/logger"' instead?[39m
+
+[31m[7m2[0m import logger, { logDebug, logError } from "../utils/logger";[39m
+[31m[7m [0m [91m                           ~~~~~~~~[0m[39m
+[31m[39m
+2024-08-30 15:13:39:1339 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m40[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m40[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:14:31:1431 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m41[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m41[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:15:22:1522 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m29[0m:[93m15[0m - [91merror[0m[90m TS2339: [0mProperty 'image_profile' does not exist on type 'File | undefined'.[39m
+
+[31m[7m29[0m       const { image_profile } = req.file[39m
+[31m[7m  [0m [91m              ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m42[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m42[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:15:31:1531 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m29[0m:[93m15[0m - [91merror[0m[90m TS2339: [0mProperty 'image_profile' does not exist on type 'File | undefined'.[39m
+
+[31m[7m29[0m       const { image_profile } = req.file[39m
+[31m[7m  [0m [91m              ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m42[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m42[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:16:13:1613 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m41[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m41[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:16:56:1656 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m41[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m41[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:17:30:1730 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m29[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty 'image_profile' does not exist on type '{ [fieldname: string]: File[]; } | File[]'.[39m
+[31m  Property 'image_profile' does not exist on type 'File[]'.[39m
+
+[31m[7m29[0m       const pic = req.files?.image_profile;[39m
+[31m[7m  [0m [91m                             ~~~~~~~~~~~~~[0m[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m42[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m42[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:17:37:1737 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m42[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m42[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:17:44:1744 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m45[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m45[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:17:48:1748 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m49[0m:[93m9[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ [fieldname: string]: File[]; } | File[] | undefined' is not assignable to parameter of type 'string'.[39m
+[31m  Type 'undefined' is not assignable to type 'string'.[39m
+
+[31m[7m49[0m         pic[39m
+[31m[7m  [0m [91m        ~~~[0m[39m
+[31m[39m
+2024-08-30 15:18:00:180 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m49[0m:[93m9[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ [fieldname: string]: File[]; } | File[] | undefined' is not assignable to parameter of type 'string'.[39m
+[31m  Type 'undefined' is not assignable to type 'string'.[39m
+
+[31m[7m49[0m         pic[39m
+[31m[7m  [0m [91m        ~~~[0m[39m
+[31m[39m
+2024-08-30 15:18:03:183 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m45[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m45[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:18:15:1815 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/services/auth.service.ts[0m:[93m19[0m:[93m7[0m - [91merror[0m[90m TS2322: [0mType '{ username: string; email: string; password: string; }' is not assignable to type '(Without<usersCreateInput, usersUncheckedCreateInput> & usersUncheckedCreateInput) | (Without<...> & usersCreateInput)'.[39m
+[31m  Type '{ username: string; email: string; password: string; }' is not assignable to type 'Without<usersUncheckedCreateInput, usersCreateInput> & usersCreateInput'.[39m
+[31m    Property 'image_profile' is missing in type '{ username: string; email: string; password: string; }' but required in type 'usersCreateInput'.[39m
+
+[31m[7m19[0m       data: { username, email, password },[39m
+[31m[7m  [0m [91m      ~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1929[0m:[93m5[0m[39m
+[31m    [7m1929[0m     image_profile: string[39m
+[31m    [7m    [0m [96m    ~~~~~~~~~~~~~[0m[39m
+[31m    'image_profile' is declared here.[39m
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1673[0m:[93m5[0m[39m
+[31m    [7m1673[0m     data: XOR<usersCreateInput, usersUncheckedCreateInput>[39m
+[31m    [7m    [0m [96m    ~~~~[0m[39m
+[31m    The expected type comes from property 'data' which is declared here on type '{ select?: usersSelect<DefaultArgs> | null | undefined; data: (Without<usersCreateInput, usersUncheckedCreateInput> & usersUncheckedCreateInput) | (Without<...> & usersCreateInput); }'[39m
+[31m[39m
+2024-08-30 15:20:59:2059 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m41[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m41[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:21:12:2112 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m41[0m:[93m43[0m - [91merror[0m[90m TS2554: [0mExpected 4 arguments, but got 3.[39m
+
+[31m[7m41[0m       const user = await this.authService.createUser([39m
+[31m[7m  [0m [91m                                          ~~~~~~~~~~[0m[39m
+
+[31m  [96msrc/services/auth.service.ts[0m:[93m17[0m:[93m5[0m[39m
+[31m    [7m17[0m     imagePath: string[39m
+[31m    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~[0m[39m
+[31m    An argument for 'imagePath' was not provided.[39m
+[31m[39m
+2024-08-30 15:34:18:3418 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m16[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'id' does not exist in type 'usersWhereUniqueInput'.[39m
+
+[31m[7m32[0m       where: { id: userId },[39m
+[31m[7m  [0m [91m               ~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1702[0m:[93m5[0m[39m
+[31m    [7m1702[0m     where: usersWhereUniqueInput[39m
+[31m    [7m    [0m [96m    ~~~~~[0m[39m
+[31m    The expected type comes from property 'where' which is declared here on type '{ select?: usersSelect<DefaultArgs> | null | undefined; data: (Without<usersUpdateInput, usersUncheckedUpdateInput> & usersUncheckedUpdateInput) | (Without<...> & usersUpdateInput); where: usersWhereUniqueInput; }'[39m
+[31m[39m
+2024-08-30 15:34:40:3440 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m16[0m - [91merror[0m[90m TS2322: [0mType 'string' is not assignable to type 'number'.[39m
+
+[31m[7m32[0m       where: { user_id: userId },[39m
+[31m[7m  [0m [91m               ~~~~~~~[0m[39m
+
+[31m  [96mnode_modules/.prisma/client/index.d.ts[0m:[93m1882[0m:[93m5[0m[39m
+[31m    [7m1882[0m     user_id?: number[39m
+[31m    [7m    [0m [96m    ~~~~~~~[0m[39m
+[31m    The expected type comes from property 'user_id' which is declared here on type 'usersWhereUniqueInput'[39m
+[31m[39m
+2024-08-30 15:35:04:354 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m54[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type '{ user_id: number; username: string; email: string; password: string; image_profile: string | null; role: string | null; createAt: Date | null; updateAt: Date | null; }'.[39m
+
+[31m[7m54[0m         await this.authService.updateUserImage(Number(user.id), imagePath); // ฟังก์ชันใหม่สำหรับการอัพเดทภาพโปรไฟล์[39m
+[31m[7m  [0m [91m                                                           ~~[0m[39m
+[31m[39m
+2024-08-30 15:35:20:3520 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m54[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type '{ user_id: number; username: string; email: string; password: string; image_profile: string | null; role: string | null; createAt: Date | null; updateAt: Date | null; }'.[39m
+
+[31m[7m54[0m         await this.authService.updateUserImage(Number(user.id), imagePath);[39m
+[31m[7m  [0m [91m                                                           ~~[0m[39m
+[31m[39m
+2024-08-30 15:35:22:3522 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m54[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type '{ user_id: number; username: string; email: string; password: string; image_profile: string | null; role: string | null; createAt: Date | null; updateAt: Date | null; }'.[39m
+
+[31m[7m54[0m         await this.authService.updateUserImage(Number(user.id), imagePath);[39m
+[31m[7m  [0m [91m                                                           ~~[0m[39m
+[31m[39m
+2024-08-30 15:35:53:3553 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m54[0m:[93m60[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type '{ user_id: number; username: string; email: string; password: string; image_profile: string | null; role: string | null; createAt: Date | null; updateAt: Date | null; }'.[39m
+
+[31m[7m54[0m         await this.authService.updateUserImage(Number(user.id), imagePath);[39m
+[31m[7m  [0m [91m                                                           ~~[0m[39m
+[31m[39m
+2024-08-30 15:36:43:3643 [31merror[39m: [31mError loading route module auth.ts: TSError: ⨯ Unable to compile TypeScript:[39m
+[31m[96msrc/controllers/auth.ts[0m:[93m54[0m:[93m32[0m - [91merror[0m[90m TS2339: [0mProperty 'updateUserImage' does not exist on type 'AuthService'.[39m
+
+[31m[7m54[0m         await this.authService.updateUserImage(Number(user.user_id), imagePath);[39m
+[31m[7m  [0m [91m                               ~~~~~~~~~~~~~~~[0m[39m
+[31m[39m

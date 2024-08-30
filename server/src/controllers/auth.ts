@@ -5,6 +5,7 @@ import argon2 from "argon2";
 import upload from "../shared/middlewares/upload";
 import jwt from "jsonwebtoken";
 import path from 'path';
+import { hash } from "crypto";
 
 export class AuthController {
   private jwtSecret = process.env.JWT_SECRET || "default_secret";
@@ -16,37 +17,47 @@ export class AuthController {
       username: string;
       email: string;
       password: string;
-    }>,
+      image_profile: File
+    }> & { file?: Express.Multer.File },
     res: Response,
     next: NextFunction
   ) => {
     try {
-      upload.single("image_profile")(req, res, async (err) => {
+
+
+      const { username, email, password } = req.body;
+
+      const imagePath = req.file ? req.file.path : null;
+      const imageName = imagePath ? path.basename(imagePath) : "";
+
+      const existingEmail = await this.authService.findEmail(email);
+      if (existingEmail) {
+        return res.status(409).json({
+          error: "email already exists",
+          path: 'email',
+          hasError: true,
+        });
+      }
+
+      const hashPassword = await argon2.hash(password);
+
+      upload.single("image_profile")(req, res, (err) => {
         if (err) {
-          return res.status(400).json({ message: err.message });
+          console.log(err);
+          return res.status(400).json({ error: err.message });
         }
-
-        const { username, email, password } = req.body;
-        const imagePath = req.file?.path;
-        const imageName = imagePath ? path.basename(imagePath) : "";
-
-        const existingEmail = await this.authService.findEmail(email);
-        if (existingEmail) {
-          return res.status(409).json({ message: "Email already exists" });
-        }
-
-        const hashPassword = await argon2.hash(password);
-
-        const user = await this.authService.createUser(
-          username,
-          email,
-          hashPassword,
-          imageName
-        );
-
-        return res.status(201).json(user);
       });
+
+      const user = await this.authService.createUser(
+        username,
+        email,
+        hashPassword,
+        imageName || ""
+      );
+
+      return res.status(201).json(user);
     } catch (error) {
+
       next(error);
     }
   };
