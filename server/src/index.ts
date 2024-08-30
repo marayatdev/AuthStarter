@@ -57,6 +57,8 @@ class App {
         const routeModule = await import(path.resolve(routePath, file));
         if (routeModule.default) {
           this.app.use("/api", routeModule.default);
+          // http://localhost:3000/api/media/
+          this.app.use('/api/media', express.static(path.join(__dirname, './uploads/')))
         }
       } catch (error) {
         logger.error(`Error loading route module ${file}: ${error}`);
@@ -72,6 +74,8 @@ class App {
       logger.info(`=================================`);
     });
   }
+
+
 }
 
 new App();

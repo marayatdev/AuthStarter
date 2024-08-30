@@ -11,7 +11,8 @@ import {
 import classes from "./AuthenticationTitle.module.css";
 import { useForm } from "@mantine/form";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+import { login } from "../../../services/Auth/authService";
+import { useAuth } from "../../../contexts/Auth/AuthContext";
 
 interface Login {
   email: string;
@@ -20,13 +21,14 @@ interface Login {
 
 export function Login() {
   const navigate = useNavigate();
-  const API_URL = import.meta.env.VITE_URL_ENDPOINT_API;
+  const { setToken, setRefreshToken } = useAuth();
 
   const handleSubmit = async (value: Login) => {
     try {
-      const response = await axios.post(`${API_URL}/api/auth/login`, value);
-      if (response.data) {
-        console.log(response.data);
+      const data = await login(value);
+      if (data) {
+        setToken(data.token);
+        setRefreshToken(data.refreshToken);
         navigate("/dashboard");
       }
     } catch (error) {
