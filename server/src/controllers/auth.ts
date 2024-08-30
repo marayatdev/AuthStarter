@@ -89,6 +89,7 @@ export class AuthController {
           email: user.email,
           username: user.username,
           role: user.role,
+          image_profile: user.image_profile,
         },
         this.jwtSecret,
         { expiresIn: "1m" }

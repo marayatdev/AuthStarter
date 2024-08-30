@@ -817,3 +817,34 @@
 2024-08-30 16:48:23:4823 [32mhttp[39m: [32m::1 POST /api/auth/login 200 384 - 59.519 ms[39m
 2024-08-30 16:48:32:4832 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.146 ms[39m
 2024-08-30 16:48:32:4832 [32mhttp[39m: [32m::1 POST /api/auth/login 200 384 - 61.915 ms[39m
+2024-08-30 16:52:46:5246 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.193 ms[39m
+2024-08-30 16:52:46:5246 [32mhttp[39m: [32m::1 POST /api/auth/login 200 384 - 61.318 ms[39m
+2024-08-30 16:57:45:5745 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.162 ms[39m
+2024-08-30 16:57:45:5745 [32mhttp[39m: [32m::1 POST /api/auth/login 200 384 - 59.919 ms[39m
+2024-08-30 16:58:08:588 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.150 ms[39m
+2024-08-30 16:58:08:588 [32mhttp[39m: [32m::1 POST /api/auth/login 200 384 - 58.658 ms[39m
+2024-08-30 16:59:29:5929 [32mhttp[39m: [32m::1 POST /api/auth/login 200 384 - 60.038 ms[39m
+2024-08-30 17:00:07:07 [32minfo[39m: [32mConnected to database[39m
+2024-08-30 17:00:08:08 [32minfo[39m: [32m=================================[39m
+2024-08-30 17:00:08:08 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-08-30 17:00:08:08 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-08-30 17:00:08:08 [32minfo[39m: [32m=================================[39m
+2024-08-30 17:00:10:010 [32mhttp[39m: [32m::1 POST /api/auth/login 200 410 - 83.010 ms[39m
+2024-08-30 17:00:35:035 [32mhttp[39m: [32m::1 POST /api/auth/login 200 460 - 66.897 ms[39m
+2024-08-30 17:04:15:415 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.809 ms[39m
+2024-08-30 17:04:15:415 [32mhttp[39m: [32m::1 POST /api/auth/login 200 410 - 60.234 ms[39m
+2024-08-30 17:06:50:650 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.309 ms[39m
+2024-08-30 17:06:50:650 [32mhttp[39m: [32m::1 POST /api/auth/login 200 410 - 61.009 ms[39m
+2024-08-30 17:14:12:1412 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.211 ms[39m
+2024-08-30 17:14:12:1412 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 12.796 ms[39m
+2024-08-30 17:14:14:1414 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 2.546 ms[39m
+2024-08-30 17:14:23:1423 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.263 ms[39m
+2024-08-30 17:14:23:1423 [32mhttp[39m: [32m::1 POST /api/auth/login 200 446 - 60.775 ms[39m
+2024-08-30 17:15:51:1551 [32mhttp[39m: [32m::1 POST /api/auth/register 400 34 - 114.730 ms[39m
+2024-08-30 17:15:56:1556 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 4.797 ms[39m
+2024-08-30 17:16:04:164 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.178 ms[39m
+2024-08-30 17:16:04:164 [32mhttp[39m: [32m::1 POST /api/auth/login 200 501 - 62.428 ms[39m
+2024-08-30 17:16:04:164 [32mhttp[39m: [32m::1 GET /api/media/1725012950960-pikachu-pokemon-4k-wallpaper-uhdpaper.com-94@2@a.jpg 200 2203184 - 4.436 ms[39m
+2024-08-30 17:16:29:1629 [32mhttp[39m: [32m::1 GET /api/media/1725012950960-pikachu-pokemon-4k-wallpaper-uhdpaper.com-94@2@a.jpg 304 - - 1.025 ms[39m
+2024-08-30 17:16:42:1642 [32mhttp[39m: [32m::1 GET /api/media/1725012950960-pikachu-pokemon-4k-wallpaper-uhdpaper.com-94@2@a.jpg 304 - - 0.709 ms[39m
+2024-08-30 17:17:03:173 [32mhttp[39m: [32m::1 GET /api/media/1725012950960-pikachu-pokemon-4k-wallpaper-uhdpaper.com-94@2@a.jpg 304 - - 0.561 ms[39m

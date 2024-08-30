@@ -1,11 +1,18 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
-
-// import a library to manage cookies, e.g., js-cookie
+import { jwtDecode } from "jwt-decode";
 import Cookies from "js-cookie";
+
+interface User {
+  username: string | null;
+  email: string | null;
+  imageProfile: string | null;
+  role: number;
+}
 
 interface AuthContextType {
   token: string | null;
   refreshToken: string | null;
+  user: User;
   setToken: (token: string | null) => void;
   setRefreshToken: (refreshToken: string | null) => void;
 }
@@ -15,19 +22,36 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
-  const [token, setTokenState] = useState<string | null>(() => {
-    return localStorage.getItem("token");
-  });
-
-  const [refreshToken, setRefreshTokenState] = useState<string | null>(() => {
-    return Cookies.get("refreshToken") || null;
+  const [token, setTokenState] = useState<string | null>(() =>
+    localStorage.getItem("token")
+  );
+  const [refreshToken, setRefreshTokenState] = useState<string | null>(
+    () => Cookies.get("refreshToken") || null
+  );
+  const [user, setUser] = useState<User>({
+    username: null,
+    email: null,
+    imageProfile: null,
+    role: 0,
   });
 
   const setToken = (token: string | null) => {
     if (token) {
       localStorage.setItem("token", token);
+      try {
+        const decoded: any = jwtDecode(token);
+        setUser({
+          username: decoded.username || null,
+          email: decoded.email || null,
+          imageProfile: decoded.image_profile || null,
+          role: decoded.role || 0,
+        });
+      } catch {
+        setUser({ username: null, email: null, imageProfile: null, role: 0 });
+      }
     } else {
       localStorage.removeItem("token");
+      setUser({ username: null, email: null, imageProfile: null, role: 0 });
     }
     setTokenState(token);
   };
@@ -56,7 +80,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
 
   return (
     <AuthContext.Provider
-      value={{ token, refreshToken, setToken, setRefreshToken }}
+      value={{ token, refreshToken, user, setToken, setRefreshToken }}
     >
       {children}
     </AuthContext.Provider>
