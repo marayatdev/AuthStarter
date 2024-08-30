@@ -12,7 +12,7 @@ model users {
   username      String    @db.VarChar(255)
   email         String    @db.VarChar(255)
   password      String    @db.VarChar(255)
-  image_profile String?   @db.VarChar(255)
+  image_profile String    @db.VarChar(255)
   role          String?   @default("1") @db.VarChar(255)
   createAt      DateTime? @default(now()) @db.DateTime(0)
   updateAt      DateTime? @default(now()) @db.DateTime(0)

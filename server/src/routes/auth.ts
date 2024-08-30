@@ -15,7 +15,11 @@ export class AuthRoutes {
 
   private initializeRoutes() {
     this.router.post(`${this.path}/login`, this.authController.loginUser);
-    this.router.post(`${this.path}/register`, upload.single('image_profile'), this.authController.createUser);
+    this.router.post(
+      `${this.path}/register`,
+      upload.single("image_profile"),
+      this.authController.createUser
+    );
     this.router.post(`${this.path}/refresh`, this.authController.refreshToken);
     this.router.get(
       `${this.path}/me`,

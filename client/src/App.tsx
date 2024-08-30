@@ -2,8 +2,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Register } from "./pages/Auth/Register/Register";
 import { Login } from "./pages/Auth/Login/Login";
 import Dashbord from "./pages/Home/Dashbord";
+import { useAuth } from "./contexts/Auth/AuthContext";
 
 function App() {
+
+  const { user } = useAuth();
+
+
   return (
     <>
       <BrowserRouter>

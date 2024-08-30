@@ -40,14 +40,26 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
       localStorage.setItem("token", token);
       try {
         const decoded: any = jwtDecode(token);
-        setUser({
-          username: decoded.username || null,
-          email: decoded.email || null,
-          imageProfile: decoded.image_profile || null,
-          role: decoded.role || 0,
-        });
+        const expiration = decoded.exp * 1000; // Convert to milliseconds
+        const now = Date.now();
+
+        if (expiration > now) {
+          setUser({
+            username: decoded.username || null,
+            email: decoded.email || null,
+            imageProfile: decoded.image_profile || null,
+            role: decoded.role || 0,
+          });
+        } else {
+          // Token expired
+          setUser({ username: null, email: null, imageProfile: null, role: 0 });
+          localStorage.removeItem("token");
+          setTokenState(null);
+        }
       } catch {
         setUser({ username: null, email: null, imageProfile: null, role: 0 });
+        localStorage.removeItem("token");
+        setTokenState(null);
       }
     } else {
       localStorage.removeItem("token");
