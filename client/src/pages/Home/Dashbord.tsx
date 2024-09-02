@@ -1,22 +1,24 @@
 import { Paper } from "@mantine/core";
 import { Header } from "../../components/ui@layout/Header/Navbar";
-import { useAuth } from "../../contexts/Auth/AuthContext";
-import { Carousel } from '@mantine/carousel';
-import '@mantine/carousel/styles.css';
-
+import { Carousel } from "@mantine/carousel";
+import "@mantine/carousel/styles.css";
 
 function Dashboard() {
-  const { user } = useAuth();
-
   return (
-
     <>
       <Header />
-      <Paper w={'80%'}>
-        <Carousel slideSize="70%" height={200} slideGap="md" loop withControls={false} withIndicators>
-          <Carousel.Slide bg={'blue'}>1</Carousel.Slide>
-          <Carousel.Slide bg={'blue'}>2</Carousel.Slide>
-          <Carousel.Slide bg={'blue'}>3</Carousel.Slide>
+      <Paper w={"80%"}>
+        <Carousel
+          slideSize="70%"
+          height={200}
+          slideGap="md"
+          loop
+          withControls={false}
+          withIndicators
+        >
+          <Carousel.Slide bg={"blue"}>1</Carousel.Slide>
+          <Carousel.Slide bg={"blue"}>2</Carousel.Slide>
+          <Carousel.Slide bg={"blue"}>3</Carousel.Slide>
         </Carousel>
       </Paper>
     </>

@@ -87,6 +87,8 @@ export function Register() {
           Register!!!!
         </Title>
 
+        {error && <Text c="red">{error.error}</Text>}
+
         <form onSubmit={form.onSubmit(handleSubmit)}>
           <TextInput
             label="username"

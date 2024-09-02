@@ -4,7 +4,6 @@ import prisma from "./utils/prisma";
 import logger from "./utils/logger";
 import bodyParser from "body-parser";
 import cors from "cors";
-import morgan from "morgan";
 import fs from "fs";
 import path from "path";
 import morganMiddleware from "./shared/middlewares/logHttpMiddleware";
