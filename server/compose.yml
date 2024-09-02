@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+  api:
+    container_name: test-api
+    working_dir: /usr/src/app
+    restart: always
+    # environment:
+    #   - DATABASE_URL="mysql://root:password@172.30.11.44:3306/auth_starter"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3001:3000
+    env_file:
+      - .env.production
+    volumes:
+      - ./:/usr/src/app
+      - dependencies:/usr/src/app/node_modules/
+    command: yarn start
+
+volumes:
+  dependencies:

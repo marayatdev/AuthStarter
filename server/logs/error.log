@@ -246,3 +246,48 @@
 [31m[7m54[0m         await this.authService.updateUserImage(Number(user.user_id), imagePath);[39m
 [31m[7m  [0m [91m                               ~~~~~~~~~~~~~~~[0m[39m
 [31m[39m
+2024-09-02 07:50:06:506 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `localhost:3306`[39m
+
+[31mPlease make sure your database server is running at `localhost:3306`.[39m
+2024-09-02 07:55:26:5526 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `localhost:3306`[39m
+
+[31mPlease make sure your database server is running at `localhost:3306`.[39m
+2024-09-02 08:05:57:557 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: error: Error validating datasource `db`: the URL must start with the protocol `mysql://`.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "mysql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2024-09-02 08:07:54:754 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: error: Error validating datasource `db`: the URL must start with the protocol `mysql://`.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "mysql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2024-09-02 08:10:35:1035 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: error: Error validating datasource `db`: the URL must start with the protocol `mysql://`.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "mysql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2024-09-02 08:18:58:1858 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `172.30.11.44:3306`[39m
+
+[31mPlease make sure your database server is running at `172.30.11.44:3306`.[39m
+2024-09-02 08:19:39:1939 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `172.30.11.44:3306`[39m
+
+[31mPlease make sure your database server is running at `172.30.11.44:3306`.[39m
+2024-09-02 08:20:55:2055 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `172.30.11.44:3306`[39m
+
+[31mPlease make sure your database server is running at `172.30.11.44:3306`.[39m
+2024-09-02 08:29:06:296 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `172.30.11.44:3306`[39m
+
+[31mPlease make sure your database server is running at `172.30.11.44:3306`.[39m
+2024-09-02 08:30:53:3053 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `172.30.11.44:3306`[39m
+
+[31mPlease make sure your database server is running at `172.30.11.44:3306`.[39m

@@ -1831,3 +1831,117 @@
 2024-09-02 13:24:23:2423 [32mhttp[39m: [32m::1 GET /api/media/ 404 149 - 0.623 ms[39m
 2024-09-02 13:24:23:2423 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 5.735 ms[39m
 2024-09-02 13:24:23:2423 [32mhttp[39m: [32m::1 GET /api/media/1725012950960-pikachu-pokemon-4k-wallpaper-uhdpaper.com-94@2@a.jpg 404 215 - 0.686 ms[39m
+2024-09-02 14:24:58:2458 [32minfo[39m: [32mConnected to database[39m
+2024-09-02 14:24:59:2459 [32minfo[39m: [32m=================================[39m
+2024-09-02 14:24:59:2459 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-02 14:24:59:2459 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-02 14:24:59:2459 [32minfo[39m: [32m=================================[39m
+2024-09-02 14:25:04:254 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 1.178 ms[39m
+2024-09-02 14:25:04:254 [32mhttp[39m: [32m::1 POST /api/auth/login 200 501 - 105.544 ms[39m
+2024-09-02 14:25:04:254 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.166 ms[39m
+2024-09-02 14:25:04:254 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.123 ms[39m
+2024-09-02 14:25:04:254 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 12.956 ms[39m
+2024-09-02 14:25:04:254 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 8.110 ms[39m
+2024-09-02 14:25:04:254 [32mhttp[39m: [32m::1 GET /api/media/ 404 149 - 7.716 ms[39m
+2024-09-02 14:25:04:254 [32mhttp[39m: [32m::1 GET /api/media/1725012950960-pikachu-pokemon-4k-wallpaper-uhdpaper.com-94@2@a.jpg 404 215 - 1.262 ms[39m
+2024-09-02 14:25:08:258 [32mhttp[39m: [32m::1 POST /api/auth/login 200 501 - 57.730 ms[39m
+2024-09-02 14:25:08:258 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 7.548 ms[39m
+2024-09-02 14:25:08:258 [32mhttp[39m: [32m::1 GET /api/media/ 404 149 - 0.811 ms[39m
+2024-09-02 14:25:08:258 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 7.009 ms[39m
+2024-09-02 14:25:08:258 [32mhttp[39m: [32m::1 GET /api/media/1725012950960-pikachu-pokemon-4k-wallpaper-uhdpaper.com-94@2@a.jpg 404 215 - 0.612 ms[39m
+2024-09-02 14:35:17:3517 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.245 ms[39m
+2024-09-02 14:35:17:3517 [32mhttp[39m: [32m::1 POST /api/auth/login 200 501 - 63.477 ms[39m
+2024-09-02 14:35:17:3517 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.193 ms[39m
+2024-09-02 14:35:17:3517 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.146 ms[39m
+2024-09-02 14:35:17:3517 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 7.985 ms[39m
+2024-09-02 14:35:17:3517 [32mhttp[39m: [32m::1 GET /api/media/ 404 149 - 0.971 ms[39m
+2024-09-02 14:35:17:3517 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 6.228 ms[39m
+2024-09-02 14:35:17:3517 [32mhttp[39m: [32m::1 GET /api/media/1725012950960-pikachu-pokemon-4k-wallpaper-uhdpaper.com-94@2@a.jpg 404 215 - 0.711 ms[39m
+2024-09-02 14:35:49:3549 [32mhttp[39m: [32m::1 POST /api/auth/register 400 34 - 70.699 ms[39m
+2024-09-02 14:35:51:3551 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 5.926 ms[39m
+2024-09-02 14:35:56:3556 [32mhttp[39m: [32m::1 POST /api/auth/register 400 34 - 58.676 ms[39m
+2024-09-02 14:35:56:3556 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 5.632 ms[39m
+2024-09-02 14:36:13:3613 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.146 ms[39m
+2024-09-02 14:36:13:3613 [32mhttp[39m: [32m::1 POST /api/auth/login 200 465 - 58.319 ms[39m
+2024-09-02 14:36:13:3613 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.138 ms[39m
+2024-09-02 14:36:13:3613 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.128 ms[39m
+2024-09-02 14:36:13:3613 [32mhttp[39m: [32m::1 GET /api/auth/me 200 119 - 6.608 ms[39m
+2024-09-02 14:36:13:3613 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 6.307 ms[39m
+2024-09-02 14:36:13:3613 [32mhttp[39m: [32m::1 GET /api/media/ 404 149 - 0.819 ms[39m
+2024-09-02 14:36:13:3613 [32mhttp[39m: [32m::1 GET /api/media/1725262549306-Tesla-Roadster-103.jpg 200 265189 - 1.714 ms[39m
+2024-09-02 07:50:06:506 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `localhost:3306`[39m
+
+[31mPlease make sure your database server is running at `localhost:3306`.[39m
+2024-09-02 07:52:16:5216 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `localhost:3306`[39m
+
+[31mPlease make sure your database server is running at `localhost:3306`.[39m
+2024-09-02 07:55:26:5526 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `localhost:3306`[39m
+
+[31mPlease make sure your database server is running at `localhost:3306`.[39m
+2024-09-02 08:05:57:557 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: error: Error validating datasource `db`: the URL must start with the protocol `mysql://`.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "mysql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2024-09-02 08:07:54:754 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: error: Error validating datasource `db`: the URL must start with the protocol `mysql://`.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "mysql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2024-09-02 08:09:56:956 [32minfo[39m: [32mConnected to database[39m
+2024-09-02 08:09:57:957 [32minfo[39m: [32m=================================[39m
+2024-09-02 08:09:57:957 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-02 08:09:57:957 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-02 08:09:57:957 [32minfo[39m: [32m=================================[39m
+2024-09-02 08:10:35:1035 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: error: Error validating datasource `db`: the URL must start with the protocol `mysql://`.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "mysql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2024-09-02 08:11:33:1133 [32minfo[39m: [32mConnected to database[39m
+2024-09-02 08:11:33:1133 [32minfo[39m: [32m=================================[39m
+2024-09-02 08:11:33:1133 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-02 08:11:33:1133 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-02 08:11:33:1133 [32minfo[39m: [32m=================================[39m
+2024-09-02 08:18:58:1858 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `172.30.11.44:3306`[39m
+
+[31mPlease make sure your database server is running at `172.30.11.44:3306`.[39m
+2024-09-02 08:19:39:1939 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `172.30.11.44:3306`[39m
+
+[31mPlease make sure your database server is running at `172.30.11.44:3306`.[39m
+2024-09-02 08:20:22:2022 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: error: Error validating datasource `db`: the URL must start with the protocol `mysql://`.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "mysql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2024-09-02 08:20:55:2055 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `172.30.11.44:3306`[39m
+
+[31mPlease make sure your database server is running at `172.30.11.44:3306`.[39m
+2024-09-02 08:29:06:296 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `172.30.11.44:3306`[39m
+
+[31mPlease make sure your database server is running at `172.30.11.44:3306`.[39m
+2024-09-02 08:30:53:3053 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `172.30.11.44:3306`[39m
+
+[31mPlease make sure your database server is running at `172.30.11.44:3306`.[39m
+2024-09-02 08:34:30:3430 [32minfo[39m: [32mConnected to database[39m
+2024-09-02 08:34:31:3431 [32minfo[39m: [32m=================================[39m
+2024-09-02 08:34:31:3431 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-02 08:34:31:3431 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-02 08:34:31:3431 [32minfo[39m: [32m=================================[39m
+2024-09-02 08:56:35:5635 [32minfo[39m: [32mConnected to database[39m
+2024-09-02 08:56:36:5636 [32minfo[39m: [32m=================================[39m
+2024-09-02 08:56:36:5636 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-02 08:56:36:5636 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-02 08:56:36:5636 [32minfo[39m: [32m=================================[39m
