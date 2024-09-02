@@ -2,12 +2,11 @@ version: '3.8'
 
 services:
   react-app:
-    build: .
+    container_name: ngixreactapp
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - "3000:3000"
-    volumes:
-      - .:/app
-      - /app/node_modules
+      - 80:80
     environment:
-      - NODE_ENV=development
-    command: npm run dev
+      NODE_ENV: production
