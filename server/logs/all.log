@@ -1945,3 +1945,348 @@
 2024-09-02 08:56:36:5636 [32minfo[39m: [32m========== Hello World ==========[39m
 2024-09-02 08:56:36:5636 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
 2024-09-02 08:56:36:5636 [32minfo[39m: [32m=================================[39m
+2024-09-03 01:23:06:236 [32minfo[39m: [32mConnected to database[39m
+2024-09-03 01:23:06:236 [32minfo[39m: [32m=================================[39m
+2024-09-03 01:23:06:236 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-03 01:23:06:236 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-03 01:23:06:236 [32minfo[39m: [32m=================================[39m
+2024-09-03 01:30:31:3031 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 404 28 - 34.871 ms[39m
+2024-09-03 01:35:37:3537 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 404 28 - 13.476 ms[39m
+2024-09-03 01:48:16:4816 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 404 28 - 8.758 ms[39m
+2024-09-03 01:48:17:4817 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 404 28 - 6.636 ms[39m
+2024-09-03 01:48:27:4827 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 200 465 - 82.022 ms[39m
+2024-09-03 01:55:57:5557 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 200 465 - 65.889 ms[39m
+2024-09-03 01:56:16:5616 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/login 204 0 - 0.575 ms[39m
+2024-09-03 01:56:16:5616 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 200 501 - 62.223 ms[39m
+2024-09-03 01:56:16:5616 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/me 204 0 - 0.164 ms[39m
+2024-09-03 01:56:16:5616 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/auth/me 200 146 - 30.892 ms[39m
+2024-09-03 01:57:01:571 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/login 204 0 - 0.124 ms[39m
+2024-09-03 01:57:01:571 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 200 465 - 64.395 ms[39m
+2024-09-03 01:57:01:571 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/me 204 0 - 0.169 ms[39m
+2024-09-03 01:57:01:571 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/auth/me 200 119 - 5.883 ms[39m
+2024-09-03 01:57:15:5715 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/login 204 0 - 0.191 ms[39m
+2024-09-03 01:57:15:5715 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 200 465 - 57.318 ms[39m
+2024-09-03 01:57:15:5715 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/me 204 0 - 0.207 ms[39m
+2024-09-03 01:57:15:5715 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/auth/me 200 119 - 8.425 ms[39m
+2024-09-03 01:57:39:5739 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/login 204 0 - 0.099 ms[39m
+2024-09-03 01:57:39:5739 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 200 501 - 56.433 ms[39m
+2024-09-03 01:57:39:5739 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/me 204 0 - 0.132 ms[39m
+2024-09-03 01:57:39:5739 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/auth/me 200 146 - 6.729 ms[39m
+2024-09-03 02:00:27:027 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/me 204 0 - 0.125 ms[39m
+2024-09-03 02:00:27:027 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/auth/me 304 - - 8.200 ms[39m
+2024-09-03 02:01:40:140 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/login 204 0 - 0.211 ms[39m
+2024-09-03 02:01:40:140 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 200 501 - 53.735 ms[39m
+2024-09-03 02:01:40:140 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/me 204 0 - 0.147 ms[39m
+2024-09-03 02:01:40:140 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/auth/me 304 - - 6.071 ms[39m
+2024-09-03 02:10:41:1041 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/login 204 0 - 0.143 ms[39m
+2024-09-03 02:10:41:1041 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 200 501 - 61.872 ms[39m
+2024-09-03 02:10:41:1041 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/me 204 0 - 0.182 ms[39m
+2024-09-03 02:10:41:1041 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/auth/me 304 - - 21.970 ms[39m
+2024-09-03 02:10:41:1041 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/ 404 149 - 4.770 ms[39m
+2024-09-03 02:10:41:1041 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/1725012950960-pikachu-pokemon-4k-wallpaper-uhdpaper.com-94@2@a.jpg 404 215 - 3.050 ms[39m
+2024-09-03 02:11:14:1114 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/1725007583367-image1_0.jpg 404 175 - 2.229 ms[39m
+2024-09-03 02:11:15:1115 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/1725007583367-image1_0.jpg 404 175 - 2.274 ms[39m
+2024-09-03 02:11:16:1116 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/1725007583367-image1_0.jpg 404 175 - 8.729 ms[39m
+2024-09-03 02:11:17:1117 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/1725007583367-image1_0.jpg 404 175 - 6.838 ms[39m
+2024-09-03 02:11:51:1151 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/login 204 0 - 0.116 ms[39m
+2024-09-03 02:11:51:1151 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 200 465 - 66.939 ms[39m
+2024-09-03 02:11:51:1151 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/me 204 0 - 0.109 ms[39m
+2024-09-03 02:11:51:1151 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/auth/me 200 119 - 5.572 ms[39m
+2024-09-03 02:11:51:1151 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/ 404 149 - 2.406 ms[39m
+2024-09-03 02:11:51:1151 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/1725262549306-Tesla-Roadster-103.jpg 200 265189 - 10.158 ms[39m
+2024-09-03 02:12:15:1215 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/1725262556581-Tesla-Roadster-103.jpg 200 265189 - 46.710 ms[39m
+2024-09-03 02:24:27:2427 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/login 204 0 - 0.125 ms[39m
+2024-09-03 02:24:27:2427 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 200 501 - 52.159 ms[39m
+2024-09-03 02:24:27:2427 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/me 204 0 - 0.130 ms[39m
+2024-09-03 02:24:27:2427 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/auth/me 200 146 - 8.086 ms[39m
+2024-09-03 02:24:27:2427 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/ 404 149 - 2.505 ms[39m
+2024-09-03 02:24:27:2427 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/1725012950960-pikachu-pokemon-4k-wallpaper-uhdpaper.com-94@2@a.jpg 404 215 - 2.128 ms[39m
+2024-09-03 02:24:35:2435 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/login 204 0 - 0.118 ms[39m
+2024-09-03 02:24:35:2435 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 200 465 - 49.061 ms[39m
+2024-09-03 02:24:35:2435 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/me 204 0 - 0.089 ms[39m
+2024-09-03 02:24:35:2435 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/auth/me 200 119 - 8.283 ms[39m
+2024-09-03 02:24:35:2435 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/ 404 149 - 1.745 ms[39m
+2024-09-03 02:24:35:2435 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/1725262549306-Tesla-Roadster-103.jpg 304 - - 7.054 ms[39m
+2024-09-03 02:24:58:2458 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/login 204 0 - 0.116 ms[39m
+2024-09-03 02:24:58:2458 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 200 465 - 53.797 ms[39m
+2024-09-03 02:24:58:2458 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/me 204 0 - 0.107 ms[39m
+2024-09-03 02:24:58:2458 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/auth/me 304 - - 4.786 ms[39m
+2024-09-03 02:24:58:2458 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/ 404 149 - 4.836 ms[39m
+2024-09-03 02:24:58:2458 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/1725262549306-Tesla-Roadster-103.jpg 304 - - 5.980 ms[39m
+2024-09-03 03:21:31:2131 [32minfo[39m: [32mConnected to database[39m
+2024-09-03 03:21:32:2132 [32minfo[39m: [32m=================================[39m
+2024-09-03 03:21:32:2132 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-03 03:21:32:2132 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-03 03:21:32:2132 [32minfo[39m: [32m=================================[39m
+2024-09-03 04:16:08:168 [32minfo[39m: [32mConnected to database[39m
+2024-09-03 04:16:09:169 [32minfo[39m: [32m=================================[39m
+2024-09-03 04:16:09:169 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-03 04:16:09:169 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-03 04:16:09:169 [32minfo[39m: [32m=================================[39m
+2024-09-03 04:16:10:1610 [32mhttp[39m: [32m::ffff:172.20.0.1 OPTIONS /api/auth/login 204 0 - 1.246 ms[39m
+2024-09-03 04:16:10:1610 [32mhttp[39m: [32m::ffff:172.20.0.1 POST /api/auth/login 200 501 - 121.793 ms[39m
+2024-09-03 04:16:10:1610 [32mhttp[39m: [32m::ffff:172.20.0.1 OPTIONS /api/auth/me 204 0 - 0.225 ms[39m
+2024-09-03 04:16:10:1610 [32mhttp[39m: [32m::ffff:172.20.0.1 GET /api/auth/me 200 146 - 12.985 ms[39m
+2024-09-03 04:16:10:1610 [32mhttp[39m: [32m::ffff:172.20.0.1 GET /api/media/ 404 149 - 6.138 ms[39m
+2024-09-03 04:16:10:1610 [32mhttp[39m: [32m::ffff:172.20.0.1 GET /api/media/1725012950960-pikachu-pokemon-4k-wallpaper-uhdpaper.com-94@2@a.jpg 404 215 - 2.134 ms[39m
+2024-09-03 04:16:15:1615 [32mhttp[39m: [32m::ffff:172.20.0.1 GET /api/auth/me 304 - - 4.630 ms[39m
+2024-09-03 04:16:15:1615 [32mhttp[39m: [32m::ffff:172.20.0.1 GET /api/media/ 404 149 - 2.683 ms[39m
+2024-09-03 04:16:15:1615 [32mhttp[39m: [32m::ffff:172.20.0.1 GET /api/media/1725012950960-pikachu-pokemon-4k-wallpaper-uhdpaper.com-94@2@a.jpg 404 215 - 2.614 ms[39m
+2024-09-03 04:16:51:1651 [32minfo[39m: [32mConnected to database[39m
+2024-09-03 04:16:52:1652 [32minfo[39m: [32m=================================[39m
+2024-09-03 04:16:52:1652 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-03 04:16:52:1652 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-03 04:16:52:1652 [32minfo[39m: [32m=================================[39m
+2024-09-03 04:17:09:179 [32mhttp[39m: [32m::ffff:172.20.0.1 POST /api/auth/login 200 465 - 75.538 ms[39m
+2024-09-03 04:20:22:2022 [32mhttp[39m: [32m::ffff:172.20.0.1 OPTIONS /api/auth/login 204 0 - 0.708 ms[39m
+2024-09-03 04:20:22:2022 [32mhttp[39m: [32m::ffff:172.20.0.1 POST /api/auth/login 200 501 - 64.277 ms[39m
+2024-09-03 04:20:22:2022 [32mhttp[39m: [32m::ffff:172.20.0.1 OPTIONS /api/auth/me 204 0 - 0.329 ms[39m
+2024-09-03 04:20:22:2022 [32mhttp[39m: [32m::ffff:172.20.0.1 GET /api/media/ 404 149 - 6.078 ms[39m
+2024-09-03 04:20:22:2022 [32mhttp[39m: [32m::ffff:172.20.0.1 GET /api/auth/me 200 146 - 17.083 ms[39m
+2024-09-03 04:20:22:2022 [32mhttp[39m: [32m::ffff:172.20.0.1 GET /api/media/1725012950960-pikachu-pokemon-4k-wallpaper-uhdpaper.com-94@2@a.jpg 404 215 - 3.440 ms[39m
+2024-09-03 05:46:37:4637 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `172.30.11.44:3306`[39m
+
+[31mPlease make sure your database server is running at `172.30.11.44:3306`.[39m
+2024-09-03 05:52:02:522 [32minfo[39m: [32mConnected to database[39m
+2024-09-03 05:52:03:523 [32minfo[39m: [32m=================================[39m
+2024-09-03 05:52:03:523 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-03 05:52:03:523 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-03 05:52:03:523 [32minfo[39m: [32m=================================[39m
+2024-09-03 05:52:14:5214 [32minfo[39m: [32mConnected to database[39m
+2024-09-03 05:52:14:5214 [32minfo[39m: [32m=================================[39m
+2024-09-03 05:52:14:5214 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-03 05:52:14:5214 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-03 05:52:14:5214 [32minfo[39m: [32m=================================[39m
+2024-09-03 05:52:16:5216 [32mhttp[39m: [32m::ffff:172.18.0.1 POST /api/auth/login 200 465 - 87.841 ms[39m
+2024-09-03 05:52:55:5255 [32mhttp[39m: [32m::ffff:172.18.0.1 POST /api/auth/login 200 465 - 58.529 ms[39m
+2024-09-03 05:52:56:5256 [32mhttp[39m: [32m::ffff:172.18.0.1 POST /api/auth/login 200 465 - 56.981 ms[39m
+2024-09-03 05:52:56:5256 [32mhttp[39m: [32m::ffff:172.18.0.1 POST /api/auth/login 200 465 - 46.748 ms[39m
+2024-09-03 05:52:57:5257 [32mhttp[39m: [32m::ffff:172.18.0.1 POST /api/auth/login 200 465 - 52.544 ms[39m
+2024-09-03 05:52:58:5258 [32mhttp[39m: [32m::ffff:172.18.0.1 POST /api/auth/login 200 465 - 73.632 ms[39m
+2024-09-03 05:52:59:5259 [32mhttp[39m: [32m::ffff:172.18.0.1 POST /api/auth/login 200 465 - 46.868 ms[39m
+2024-09-03 05:53:00:530 [32mhttp[39m: [32m::ffff:172.18.0.1 POST /api/auth/login 200 465 - 52.083 ms[39m
+2024-09-03 06:14:10:1410 [32minfo[39m: [32mConnected to database[39m
+2024-09-03 06:14:10:1410 [32minfo[39m: [32m=================================[39m
+2024-09-03 06:14:10:1410 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-03 06:14:10:1410 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-03 06:14:10:1410 [32minfo[39m: [32m=================================[39m
+2024-09-03 06:14:40:1440 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/login 204 0 - 1.202 ms[39m
+2024-09-03 06:14:40:1440 [32mhttp[39m: [32m::ffff:172.19.0.1 POST /api/auth/login 200 501 - 102.659 ms[39m
+2024-09-03 06:14:40:1440 [32mhttp[39m: [32m::ffff:172.19.0.1 OPTIONS /api/auth/me 204 0 - 0.271 ms[39m
+2024-09-03 06:14:40:1440 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/auth/me 304 - - 13.240 ms[39m
+2024-09-03 06:14:40:1440 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/ 404 149 - 4.697 ms[39m
+2024-09-03 06:14:40:1440 [32mhttp[39m: [32m::ffff:172.19.0.1 GET /api/media/1725012950960-pikachu-pokemon-4k-wallpaper-uhdpaper.com-94@2@a.jpg 404 215 - 2.395 ms[39m
+2024-09-03 06:42:56:4256 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Prisma Client could not locate the Query Engine for runtime "debian-openssl-1.1.x".[39m
+
+[31mThis happened because Prisma Client was generated for "windows", but the actual deployment required "debian-openssl-1.1.x".[39m
+[31mAdd "debian-openssl-1.1.x" to `binaryTargets` in the "schema.prisma" file and run `prisma generate` after saving it:[39m
+
+[31mgenerator client {[39m
+[31m  provider      = "prisma-client-js"[39m
+[31m  binaryTargets = ["native", "debian-openssl-1.1.x"][39m
+[31m}[39m
+
+[31mThe following locations have been searched:[39m
+[31m  /usr/src/app/node_modules/.prisma/client[39m
+[31m  /usr/src/app/node_modules/@prisma/client[39m
+[31m  C:\Users\chawalit\Desktop\Project\Project_practise\AuthStarter\server\node_modules\@prisma\client[39m
+[31m  /tmp/prisma-engines[39m
+[31m  /usr/src/app/prisma[39m
+2024-09-03 06:43:03:433 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Prisma Client could not locate the Query Engine for runtime "debian-openssl-1.1.x".[39m
+
+[31mThis happened because Prisma Client was generated for "windows", but the actual deployment required "debian-openssl-1.1.x".[39m
+[31mAdd "debian-openssl-1.1.x" to `binaryTargets` in the "schema.prisma" file and run `prisma generate` after saving it:[39m
+
+[31mgenerator client {[39m
+[31m  provider      = "prisma-client-js"[39m
+[31m  binaryTargets = ["native", "debian-openssl-1.1.x"][39m
+[31m}[39m
+
+[31mThe following locations have been searched:[39m
+[31m  /usr/src/app/node_modules/.prisma/client[39m
+[31m  /usr/src/app/node_modules/@prisma/client[39m
+[31m  C:\Users\chawalit\Desktop\Project\Project_practise\AuthStarter\server\node_modules\@prisma\client[39m
+[31m  /tmp/prisma-engines[39m
+[31m  /usr/src/app/prisma[39m
+2024-09-03 14:00:06:06 [32minfo[39m: [32mConnected to database[39m
+2024-09-03 14:00:27:027 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `172.30.11.44:3306`[39m
+
+[31mPlease make sure your database server is running at `172.30.11.44:3306`.[39m
+2024-09-03 14:01:05:15 [32minfo[39m: [32mConnected to database[39m
+2024-09-03 14:01:05:15 [32minfo[39m: [32m=================================[39m
+2024-09-03 14:01:05:15 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-03 14:01:05:15 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-03 14:01:05:15 [32minfo[39m: [32m=================================[39m
+2024-09-03 14:01:10:110 [32mhttp[39m: [32m::1 POST /api/auth/login 200 465 - 160.890 ms[39m
+2024-09-03 14:03:15:315 [32minfo[39m: [32mConnected to database[39m
+2024-09-03 14:03:15:315 [32minfo[39m: [32m=================================[39m
+2024-09-03 14:03:15:315 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-03 14:03:15:315 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-03 14:03:15:315 [32minfo[39m: [32m=================================[39m
+2024-09-03 14:03:18:318 [32minfo[39m: [32mConnected to database[39m
+2024-09-03 14:03:18:318 [32minfo[39m: [32m=================================[39m
+2024-09-03 14:03:18:318 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-03 14:03:18:318 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-03 14:03:18:318 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:36:17:3617 [32minfo[39m: [32mConnected to database[39m
+2024-09-05 10:36:17:3617 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:36:17:3617 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-05 10:36:17:3617 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-05 10:36:17:3617 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:36:19:3619 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 1.399 ms[39m
+2024-09-05 10:36:19:3619 [32mhttp[39m: [32m::1 POST /api/auth/login 200 501 - 112.458 ms[39m
+2024-09-05 10:36:19:3619 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.162 ms[39m
+2024-09-05 10:36:19:3619 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.131 ms[39m
+2024-09-05 10:36:19:3619 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 12.412 ms[39m
+2024-09-05 10:36:19:3619 [32mhttp[39m: [32m::1 GET /api/media/ 404 149 - 2.480 ms[39m
+2024-09-05 10:36:19:3619 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 8.705 ms[39m
+2024-09-05 10:36:19:3619 [32mhttp[39m: [32m::1 GET /api/media/1725012950960-pikachu-pokemon-4k-wallpaper-uhdpaper.com-94@2@a.jpg 404 215 - 1.494 ms[39m
+2024-09-05 10:37:16:3716 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.217 ms[39m
+2024-09-05 10:37:16:3716 [32mhttp[39m: [32m::1 POST /api/auth/login 200 465 - 60.394 ms[39m
+2024-09-05 10:37:16:3716 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.131 ms[39m
+2024-09-05 10:37:16:3716 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.216 ms[39m
+2024-09-05 10:37:16:3716 [32mhttp[39m: [32m::1 GET /api/auth/me 200 119 - 8.069 ms[39m
+2024-09-05 10:37:16:3716 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 7.198 ms[39m
+2024-09-05 10:37:16:3716 [32mhttp[39m: [32m::1 GET /api/media/ 404 149 - 0.848 ms[39m
+2024-09-05 10:37:16:3716 [32mhttp[39m: [32m::1 GET /api/media/1725262549306-Tesla-Roadster-103.jpg 304 - - 0.949 ms[39m
+2024-09-05 10:37:36:3736 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.154 ms[39m
+2024-09-05 10:37:36:3736 [32mhttp[39m: [32m::1 POST /api/auth/login 200 465 - 62.390 ms[39m
+2024-09-05 10:37:36:3736 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.118 ms[39m
+2024-09-05 10:37:36:3736 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.136 ms[39m
+2024-09-05 10:37:36:3736 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 6.180 ms[39m
+2024-09-05 10:37:36:3736 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 7.466 ms[39m
+2024-09-05 10:37:36:3736 [32mhttp[39m: [32m::1 GET /api/media/ 404 149 - 0.767 ms[39m
+2024-09-05 10:37:36:3736 [32mhttp[39m: [32m::1 GET /api/media/1725262549306-Tesla-Roadster-103.jpg 304 - - 0.513 ms[39m
+2024-09-05 10:38:25:3825 [32minfo[39m: [32mConnected to database[39m
+2024-09-05 10:38:25:3825 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:38:25:3825 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-05 10:38:25:3825 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-05 10:38:25:3825 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:38:56:3856 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 18.233 ms[39m
+2024-09-05 10:39:07:397 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 3.454 ms[39m
+2024-09-05 10:39:08:398 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 3.370 ms[39m
+2024-09-05 10:40:14:4014 [32minfo[39m: [32mConnected to database[39m
+2024-09-05 10:40:14:4014 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:40:14:4014 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-05 10:40:14:4014 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-05 10:40:14:4014 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:40:28:4028 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 1.160 ms[39m
+2024-09-05 10:40:28:4028 [32mhttp[39m: [32m::1 POST /api/auth/login 200 465 - 80.974 ms[39m
+2024-09-05 10:40:28:4028 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.342 ms[39m
+2024-09-05 10:40:28:4028 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.225 ms[39m
+2024-09-05 10:40:28:4028 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 13.408 ms[39m
+2024-09-05 10:40:28:4028 [32mhttp[39m: [32m::1 GET /api/media/ 404 149 - 13.479 ms[39m
+2024-09-05 10:40:28:4028 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 8.860 ms[39m
+2024-09-05 10:40:28:4028 [32mhttp[39m: [32m::1 GET /api/media/1725262549306-Tesla-Roadster-103.jpg 304 - - 1.258 ms[39m
+2024-09-05 10:40:38:4038 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.119 ms[39m
+2024-09-05 10:40:38:4038 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 4.169 ms[39m
+2024-09-05 10:42:15:4215 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.152 ms[39m
+2024-09-05 10:42:15:4215 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 3.886 ms[39m
+2024-09-05 10:42:19:4219 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 6.178 ms[39m
+2024-09-05 10:42:31:4231 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.182 ms[39m
+2024-09-05 10:42:31:4231 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 4.579 ms[39m
+2024-09-05 10:44:46:4446 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.181 ms[39m
+2024-09-05 10:44:46:4446 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 4.547 ms[39m
+2024-09-05 10:44:51:4451 [32mhttp[39m: [32m::1 POST /api/auth/login 200 465 - 68.209 ms[39m
+2024-09-05 10:44:51:4451 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.144 ms[39m
+2024-09-05 10:44:51:4451 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.123 ms[39m
+2024-09-05 10:44:51:4451 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 15.587 ms[39m
+2024-09-05 10:44:51:4451 [32mhttp[39m: [32m::1 GET /api/media/ 404 149 - 3.412 ms[39m
+2024-09-05 10:44:51:4451 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 6.655 ms[39m
+2024-09-05 10:44:51:4451 [32mhttp[39m: [32m::1 GET /api/media/1725262549306-Tesla-Roadster-103.jpg 304 - - 1.129 ms[39m
+2024-09-05 10:46:08:468 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.299 ms[39m
+2024-09-05 10:46:08:468 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 4.584 ms[39m
+2024-09-05 10:46:18:4618 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.228 ms[39m
+2024-09-05 10:46:18:4618 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 2.798 ms[39m
+2024-09-05 10:47:09:479 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.210 ms[39m
+2024-09-05 10:47:09:479 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 4.788 ms[39m
+2024-09-05 10:47:09:479 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 3.116 ms[39m
+2024-09-05 10:49:59:4959 [32mhttp[39m: [32m::1 POST /api/auth/register 409 63 - 5.023 ms[39m
+2024-09-05 10:50:53:5053 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.175 ms[39m
+2024-09-05 10:50:53:5053 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 4.741 ms[39m
+2024-09-05 10:51:52:5152 [32minfo[39m: [32mConnected to database[39m
+2024-09-05 10:51:52:5152 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:51:52:5152 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-05 10:51:52:5152 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-05 10:51:52:5152 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:52:05:525 [32minfo[39m: [32mConnected to database[39m
+2024-09-05 10:52:05:525 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:52:05:525 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-05 10:52:05:525 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-05 10:52:05:525 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:52:38:5238 [32minfo[39m: [32mConnected to database[39m
+2024-09-05 10:52:38:5238 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:52:38:5238 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-05 10:52:38:5238 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-05 10:52:38:5238 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:52:40:5240 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 1.544 ms[39m
+2024-09-05 10:52:40:5240 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 20.899 ms[39m
+2024-09-05 10:52:47:5247 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.198 ms[39m
+2024-09-05 10:52:47:5247 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 3.001 ms[39m
+2024-09-05 10:53:11:5311 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.161 ms[39m
+2024-09-05 10:53:11:5311 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 4.723 ms[39m
+2024-09-05 10:53:28:5328 [32minfo[39m: [32mConnected to database[39m
+2024-09-05 10:53:28:5328 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:53:28:5328 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-05 10:53:28:5328 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-05 10:53:28:5328 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:53:35:5335 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 1.238 ms[39m
+2024-09-05 10:53:35:5335 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 19.406 ms[39m
+2024-09-05 10:54:15:5415 [32minfo[39m: [32mConnected to database[39m
+2024-09-05 10:54:15:5415 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:54:15:5415 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-05 10:54:15:5415 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-05 10:54:15:5415 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:54:15:5415 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 2.593 ms[39m
+2024-09-05 10:54:15:5415 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 33.683 ms[39m
+2024-09-05 10:54:29:5429 [32mhttp[39m: [32m::ffff:127.0.0.1 OPTIONS /api/auth/login 204 0 - 0.220 ms[39m
+2024-09-05 10:54:29:5429 [32mhttp[39m: [32m::ffff:127.0.0.1 POST /api/auth/login 404 28 - 3.674 ms[39m
+2024-09-05 10:54:33:5433 [32mhttp[39m: [32m::ffff:127.0.0.1 POST /api/auth/login 404 28 - 4.403 ms[39m
+2024-09-05 10:54:41:5441 [32minfo[39m: [32mConnected to database[39m
+2024-09-05 10:54:41:5441 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:54:41:5441 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-05 10:54:41:5441 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-05 10:54:41:5441 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:54:46:5446 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 2.138 ms[39m
+2024-09-05 10:54:46:5446 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 21.329 ms[39m
+2024-09-05 10:56:14:5614 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.259 ms[39m
+2024-09-05 10:56:14:5614 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 5.557 ms[39m
+2024-09-05 10:56:20:5620 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.153 ms[39m
+2024-09-05 10:56:20:5620 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 2.890 ms[39m
+2024-09-05 10:56:27:5627 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.193 ms[39m
+2024-09-05 10:56:27:5627 [32mhttp[39m: [32m::1 POST /api/auth/login 200 465 - 65.217 ms[39m
+2024-09-05 10:56:27:5627 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.128 ms[39m
+2024-09-05 10:56:27:5627 [32mhttp[39m: [32m::1 OPTIONS /api/auth/me 204 0 - 0.130 ms[39m
+2024-09-05 10:56:27:5627 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 13.180 ms[39m
+2024-09-05 10:56:27:5627 [32mhttp[39m: [32m::1 GET /api/media/ 404 149 - 6.299 ms[39m
+2024-09-05 10:56:27:5627 [32mhttp[39m: [32m::1 GET /api/auth/me 304 - - 8.988 ms[39m
+2024-09-05 10:56:27:5627 [32mhttp[39m: [32m::1 GET /api/media/1725262549306-Tesla-Roadster-103.jpg 304 - - 1.421 ms[39m
+2024-09-05 10:56:37:5637 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.253 ms[39m
+2024-09-05 10:56:37:5637 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 4.596 ms[39m
+2024-09-05 10:57:03:573 [32minfo[39m: [32mConnected to database[39m
+2024-09-05 10:57:03:573 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:57:03:573 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-05 10:57:03:573 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-05 10:57:03:573 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:57:06:576 [32minfo[39m: [32mConnected to database[39m
+2024-09-05 10:57:07:577 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:57:07:577 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-05 10:57:07:577 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-05 10:57:07:577 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:57:09:579 [32minfo[39m: [32mConnected to database[39m
+2024-09-05 10:57:09:579 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:57:09:579 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-05 10:57:09:579 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-05 10:57:09:579 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:57:27:5727 [32minfo[39m: [32mConnected to database[39m
+2024-09-05 10:57:28:5728 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:57:28:5728 [32minfo[39m: [32m========== Hello World ==========[39m
+2024-09-05 10:57:28:5728 [32minfo[39m: [32m🚀 Server is running on port 3000[39m
+2024-09-05 10:57:28:5728 [32minfo[39m: [32m=================================[39m
+2024-09-05 10:57:33:5733 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 1.200 ms[39m
+2024-09-05 10:57:33:5733 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 21.560 ms[39m
+2024-09-05 10:58:14:5814 [32mhttp[39m: [32m::1 OPTIONS /api/auth/login 204 0 - 0.291 ms[39m
+2024-09-05 10:58:14:5814 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 6.569 ms[39m
+2024-09-05 10:58:19:5819 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 3.363 ms[39m
+2024-09-05 10:58:19:5819 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 3.468 ms[39m
+2024-09-05 10:58:19:5819 [32mhttp[39m: [32m::1 POST /api/auth/login 404 28 - 3.543 ms[39m

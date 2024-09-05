@@ -1,9 +1,7 @@
 import axios from "axios";
+import { Login } from "../../interfaces/auth";
 
-interface Login {
-  email: string;
-  password: string;
-}
+
 
 const API_URL = import.meta.env.VITE_URL_ENDPOINT_API;
 export async function login(value: Login) {

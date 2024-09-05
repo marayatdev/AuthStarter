@@ -291,3 +291,41 @@
 2024-09-02 08:30:53:3053 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `172.30.11.44:3306`[39m
 
 [31mPlease make sure your database server is running at `172.30.11.44:3306`.[39m
+2024-09-03 05:46:37:4637 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `172.30.11.44:3306`[39m
+
+[31mPlease make sure your database server is running at `172.30.11.44:3306`.[39m
+2024-09-03 06:42:56:4256 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Prisma Client could not locate the Query Engine for runtime "debian-openssl-1.1.x".[39m
+
+[31mThis happened because Prisma Client was generated for "windows", but the actual deployment required "debian-openssl-1.1.x".[39m
+[31mAdd "debian-openssl-1.1.x" to `binaryTargets` in the "schema.prisma" file and run `prisma generate` after saving it:[39m
+
+[31mgenerator client {[39m
+[31m  provider      = "prisma-client-js"[39m
+[31m  binaryTargets = ["native", "debian-openssl-1.1.x"][39m
+[31m}[39m
+
+[31mThe following locations have been searched:[39m
+[31m  /usr/src/app/node_modules/.prisma/client[39m
+[31m  /usr/src/app/node_modules/@prisma/client[39m
+[31m  C:\Users\chawalit\Desktop\Project\Project_practise\AuthStarter\server\node_modules\@prisma\client[39m
+[31m  /tmp/prisma-engines[39m
+[31m  /usr/src/app/prisma[39m
+2024-09-03 06:43:03:433 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Prisma Client could not locate the Query Engine for runtime "debian-openssl-1.1.x".[39m
+
+[31mThis happened because Prisma Client was generated for "windows", but the actual deployment required "debian-openssl-1.1.x".[39m
+[31mAdd "debian-openssl-1.1.x" to `binaryTargets` in the "schema.prisma" file and run `prisma generate` after saving it:[39m
+
+[31mgenerator client {[39m
+[31m  provider      = "prisma-client-js"[39m
+[31m  binaryTargets = ["native", "debian-openssl-1.1.x"][39m
+[31m}[39m
+
+[31mThe following locations have been searched:[39m
+[31m  /usr/src/app/node_modules/.prisma/client[39m
+[31m  /usr/src/app/node_modules/@prisma/client[39m
+[31m  C:\Users\chawalit\Desktop\Project\Project_practise\AuthStarter\server\node_modules\@prisma\client[39m
+[31m  /tmp/prisma-engines[39m
+[31m  /usr/src/app/prisma[39m
+2024-09-03 14:00:27:027 [31merror[39m: [31mSetup failed: Database connection error: PrismaClientInitializationError: Can't reach database server at `172.30.11.44:3306`[39m
+
+[31mPlease make sure your database server is running at `172.30.11.44:3306`.[39m

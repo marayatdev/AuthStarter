@@ -1,29 +1,10 @@
-# Build Stage
-FROM node:20.10-bullseye-slim as build
-
+FROM node:lts-alpine
+ENV NODE_ENV=production
 WORKDIR /usr/src/app
-
-COPY package.json yarn.lock ./
-RUN yarn install
-
+COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
+RUN npm install --production --silent && mv node_modules ../
 COPY . .
-
-# Copy .env file
-COPY .env .env
-
-RUN yarn prisma generate
-RUN yarn build
-
-# Production Stage
-FROM node:20.10-bullseye-slim as production
-
-WORKDIR /usr/src/app
-
-COPY --from=build /usr/src/app/dist ./dist
-COPY --from=build /usr/src/app/node_modules ./node_modules
-COPY --from=build /usr/src/app/prisma ./prisma
-COPY --from=build /usr/src/app/.env .env
-
-EXPOSE 8000
-
-CMD ["node", "dist/index.js"]
+EXPOSE 3000
+RUN chown -R node /usr/src/app
+USER node
+CMD ["npm", "start"]

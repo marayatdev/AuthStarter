@@ -13,18 +13,13 @@ import { useForm } from "@mantine/form";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
+import { ErrorProps } from "../../../interfaces/auth";
 
 interface Register {
   username: string;
   email: string;
   password: string;
   image_profile: File | null;
-}
-
-interface ErrorProps {
-  error: string;
-  path: string;
-  hasError: boolean;
 }
 
 export function Register() {

@@ -1,23 +1,23 @@
 version: '3.8'
 
 services:
-  # client:
-  #   build: ./client
+  # backend:
+  #   build: ./server
+  #   container_name: node-backend
+  #   restart: unless-stopped
   #   ports:
-  #     - '8080:8080'
+  #     - '3000:3000'
+  #   networks:
+  #     - app-network
 
-  # api:
-  #   container_name: test-api
-  #   restart: always
-  #   build:
-  #     context: .
-  #     dockerfile: Dockerfile
+  # frontend:
+  #   build: ./client
+  #   container_name: react-frontend
+  #   restart: unless-stopped
   #   ports:
-  #     - 3001:3000
-  #    volumes:
-  #      - ./:/usr/src/app
-  #     - dependencies:/usr/src/app/node_modules/
-  #   command: yarn dev
+  #     - '80:80'
+  #   networks:
+  #     - app-network
 
   db:
     image: mysql:5.7
@@ -33,5 +33,12 @@ services:
       - '3306'
     volumes:
       - my-db:/var/lib/mysql
+    networks:
+      - app-network
+
 volumes:
   my-db:
+
+networks:
+  app-network:
+    driver: bridge

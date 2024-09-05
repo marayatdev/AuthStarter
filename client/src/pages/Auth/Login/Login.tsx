@@ -13,6 +13,8 @@ import { useForm } from "@mantine/form";
 import { useNavigate } from "react-router-dom";
 import { login } from "../../../services/Auth/authService";
 import { useAuth } from "../../../contexts/Auth/AuthContext";
+import { useState } from "react";
+import { ErrorProps } from "../../../interfaces/auth";
 
 interface Login {
   email: string;
@@ -22,6 +24,7 @@ interface Login {
 export function Login() {
   const navigate = useNavigate();
   const { setToken, setRefreshToken } = useAuth();
+  const [error, setError] = useState<ErrorProps | null>(null);
 
   const handleSubmit = async (value: Login) => {
     try {
@@ -31,14 +34,23 @@ export function Login() {
         setRefreshToken(data.refreshToken);
         navigate("/dashboard");
       }
-    } catch (error) {
-      console.log(error);
+    } catch (error: any) {
+      if (error.response && error.response.data) {
+        const errorData = error.response.data;
+        setError(errorData);
+
+        if (errorData.path && errorData.error) {
+          form.setFieldError(errorData.path, errorData.error);
+        }
+      } else {
+        console.error("An unexpected error occurred:", error);
+      }
     }
   };
 
   const form = useForm<Login>({
     mode: "uncontrolled",
-    initialValues: { email: "marayat@gmail.com", password: "1234" },
+    initialValues: { email: "marayat001@gmail.com", password: "1234" },
   });
 
   return (

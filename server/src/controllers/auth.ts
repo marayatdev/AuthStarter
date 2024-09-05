@@ -73,7 +73,11 @@ export class AuthController {
 
       const user = await this.authService.findEmail(email);
       if (!user) {
-        return res.status(404).json({ message: "User not found" });
+        return res.status(404).json({
+          error: "email not found",
+          path: "email",
+          hasError: true,
+        });
       }
 
       const valid = await argon2.verify(user.password, password);
