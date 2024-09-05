@@ -70,7 +70,6 @@ export class AuthController {
   ) => {
     try {
       const { email, password } = req.body;
-
       const user = await this.authService.findEmail(email);
       if (!user) {
         return res.status(404).json({

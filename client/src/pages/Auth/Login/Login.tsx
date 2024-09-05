@@ -26,6 +26,10 @@ export function Login() {
   const { setToken, setRefreshToken } = useAuth();
   const [error, setError] = useState<ErrorProps | null>(null);
 
+  const form = useForm<Login>({
+    initialValues: { email: "marayat001@gmail.com", password: "1234" },
+  });
+
   const handleSubmit = async (value: Login) => {
     try {
       const data = await login(value);
@@ -39,6 +43,7 @@ export function Login() {
         const errorData = error.response.data;
         setError(errorData);
 
+        // ตั้งค่า error ที่ฟิลด์ที่เกี่ยวข้อง
         if (errorData.path && errorData.error) {
           form.setFieldError(errorData.path, errorData.error);
         }
@@ -47,11 +52,6 @@ export function Login() {
       }
     }
   };
-
-  const form = useForm<Login>({
-    mode: "uncontrolled",
-    initialValues: { email: "marayat001@gmail.com", password: "1234" },
-  });
 
   return (
     <div className={classes.wrapper}>
@@ -65,7 +65,6 @@ export function Login() {
             label="Email address"
             placeholder="hello@gmail.com"
             size="md"
-            key={form.key("email")}
             {...form.getInputProps("email")}
           />
           <PasswordInput
@@ -73,7 +72,6 @@ export function Login() {
             placeholder="Your password"
             mt="md"
             size="md"
-            key={form.key("password")}
             {...form.getInputProps("password")}
           />
           <Checkbox label="Keep me logged in" mt="xl" size="md" />
@@ -81,6 +79,12 @@ export function Login() {
             Login
           </Button>
         </form>
+
+        {error && (
+          <Text c="red" mt="md">
+            {error.error}
+          </Text>
+        )}
 
         <Text ta="center" mt="md">
           Don&apos;t have an account?{" "}
