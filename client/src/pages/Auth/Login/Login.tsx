@@ -27,7 +27,8 @@ export function Login() {
   const [error, setError] = useState<ErrorProps | null>(null);
 
   const form = useForm<Login>({
-    initialValues: { email: "marayat001@gmail.com", password: "1234" },
+    mode: "uncontrolled",
+    initialValues: { email: "marayat@gmail.com", password: "1234" },
   });
 
   const handleSubmit = async (value: Login) => {
@@ -39,14 +40,9 @@ export function Login() {
         navigate("/dashboard");
       }
     } catch (error: any) {
-      if (error.response && error.response.data) {
-        const errorData = error.response.data;
-        setError(errorData);
-
-        // ตั้งค่า error ที่ฟิลด์ที่เกี่ยวข้อง
-        if (errorData.path && errorData.error) {
-          form.setFieldError(errorData.path, errorData.error);
-        }
+      if (error.path && error.error) {
+        form.setFieldError(error.path, error.error);
+        setError(error); // แสดงข้อความ error
       } else {
         console.error("An unexpected error occurred:", error);
       }
@@ -80,11 +76,11 @@ export function Login() {
           </Button>
         </form>
 
-        {error && (
+        {/* {error && (
           <Text c="red" mt="md">
             {error.error}
           </Text>
-        )}
+        )} */}
 
         <Text ta="center" mt="md">
           Don&apos;t have an account?{" "}

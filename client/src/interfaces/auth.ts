@@ -9,4 +9,3 @@ export interface ErrorProps {
     path: string;
     hasError: boolean;
 }
-

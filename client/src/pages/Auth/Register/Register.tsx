@@ -11,11 +11,12 @@ import {
 import classes from "./AuthenticationTitle.module.css";
 import { useForm } from "@mantine/form";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
 import { useState } from "react";
 import { ErrorProps } from "../../../interfaces/auth";
+import { register } from "../../../services/Auth/authService";
+import { notifications } from "@mantine/notifications";
 
-interface Register {
+export interface Register {
   username: string;
   email: string;
   password: string;
@@ -24,7 +25,6 @@ interface Register {
 
 export function Register() {
   const navigate = useNavigate();
-  const API_URL = import.meta.env.VITE_URL_ENDPOINT_API;
   const [error, setError] = useState<ErrorProps | null>(null);
 
   const form = useForm<Register>({
@@ -35,40 +35,30 @@ export function Register() {
       password: "1234",
       image_profile: null,
     },
+    validate: {
+      username: (value) => (value ? null : "username is required"),
+      email: (value) => (/^\S+@\S+$/.test(value) ? null : "Invalid email"),
+      password: (value) => (value ? null : "password is required"),
+      image_profile: (value) => (value ? null : "image is required"),
+    },
   });
   const handleSubmit = async (value: Register) => {
     form.clearErrors();
     try {
-      const formData = new FormData();
-      formData.append("username", value.username);
-      formData.append("email", value.email);
-      formData.append("password", value.password);
-      if (value.image_profile) {
-        formData.append("image_profile", value.image_profile);
-      }
-
-      const response = await axios.post(
-        `${API_URL}/api/auth/register`,
-        formData,
-        {
-          headers: {
-            "Content-Type": "multipart/form-data",
-          },
-        }
-      );
-
-      if (response.data) {
-        console.log(response.data);
+      const response = await register(value);
+      if (response) {
+        console.log(response);
+        notifications.show({
+          title: "Success",
+          message: "create account successfully!",
+          color: "green",
+        });
         navigate("/");
       }
     } catch (error: any) {
-      if (error.response && error.response.data) {
-        const errorData = error.response.data;
-        setError(errorData);
-
-        if (errorData.path && errorData.error) {
-          form.setFieldError(errorData.path, errorData.error);
-        }
+      if (error.path && error.error) {
+        form.setFieldError(error.path, error.error);
+        setError(error); // แสดงข้อความ error
       } else {
         console.error("An unexpected error occurred:", error);
       }

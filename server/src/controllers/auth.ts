@@ -40,12 +40,12 @@ export class AuthController {
 
       const hashPassword = await argon2.hash(password);
 
-      upload.single("image_profile")(req, res, (err) => {
-        if (err) {
-          console.log(err);
-          return res.status(400).json({ error: err.message });
-        }
-      });
+      // upload.single("image_profile")(req, res, (err) => {
+      //   if (err) {
+      //     console.log(err);
+      //     return res.status(400).json({ error: err.message });
+      //   }
+      // });
 
       const user = await this.authService.createUser(
         username,
